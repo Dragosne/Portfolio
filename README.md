@@ -6,4 +6,4 @@ I am committed not only to ensuring the quality and functionality of software pr
 
 ## CV
 
-[You can see my resume here]
+You can see my resume [here](https://github.com/Dragosne/Portfolio/blob/main/TM-Projects/TEST%20PLAN%20PROJECT/ProjectImages/CV_Dragos_Nechifor_QA_Tester.pdf)
