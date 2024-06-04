@@ -1,0 +1,57 @@
+// Verify the response status code
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+// Verify if the response is in JSON format
+pm.test("Response is JSON", function () {
+    pm.response.to.be.json;
+});
+
+// Verify the response structure
+pm.test("Response has all required fields", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData).to.have.property("id");
+    pm.expect(jsonData).to.have.property("name");
+    pm.expect(jsonData).to.have.property("desc");
+    pm.expect(jsonData).to.have.property("closed");
+    pm.expect(jsonData).to.have.property("idOrganization");
+});
+
+// Verify the values in the response
+pm.test("Response values are correct", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.name).to.eql(pm.environment.get("new_board_name")); // Verify that the name matches the new name
+});
+
+// Verify if the board ID matches the expected value
+pm.test("Board ID matches the expected value", function () {
+    var jsonData = pm.response.json();
+    var expectedBoardId = pm.environment.get("postmanBoardID"); // Get the previously saved board ID from the environment
+    pm.expect(jsonData.id).to.eql(expectedBoardId);
+});
+
+// Verify the response time
+pm.test("Response time is less than 500ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(500);
+});
+
+// Verify the response contains an ID
+pm.test("Response contains an ID", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData).to.have.property("id");
+    pm.expect(jsonData.id).to.be.a("string");
+});
+
+// Verify the response name includes the new name
+pm.test("Response name includes the input name", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.name).to.include(pm.environment.get("new_board_name"));
+});
+
+// Verify the response contains idOrganization
+pm.test("Response contains idOrganization", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData).to.have.property("idOrganization");
+    pm.expect(jsonData.idOrganization).to.be.a("string");
+});

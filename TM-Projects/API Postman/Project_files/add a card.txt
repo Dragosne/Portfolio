@@ -1,0 +1,32 @@
+// Test to verify the status code of the response
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+// Test to verify if the response is in JSON format
+pm.test("Response is JSON", function () {
+    pm.response.to.be.json;
+});
+
+// Test to verify if the response contains a card ID
+pm.test("Card ID is present in the response", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.id).to.be.a("string");
+});
+
+// Test to verify the values sent in the request body
+pm.test("Request body contains correct values", function () {
+    var requestBody = pm.request.json();
+    pm.expect(requestBody.name).to.eql("PAY TAXES");
+    pm.expect(requestBody.desc).to.eql("impozit pe casa");
+    pm.expect(requestBody.due).to.eql("2024-06-06T00:00:00.000Z");
+    pm.expect(requestBody.dueComplete).to.be.false;
+    pm.expect(requestBody.idList).to.eql(pm.environment.get("listID"));
+    pm.expect(requestBody.locationName).to.eql("city hall");
+    pm.expect(requestBody.locationAddress).to.eql("Stefan cel Mare nr. 200");
+});
+
+// Test to verify the response time
+pm.test("Response time is less than 500ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(500);
+});

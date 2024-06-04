@@ -1,0 +1,2125 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>ZFJ - Html Report for Executions</title>
+        <script type="text/javascript">
+        function altRows ( id ) {
+            if ( document.getElementsByTagName ) {
+                var table = document.getElementById ( id ) ;
+                var rows = table.getElementsByTagName ( "tr" ) ;
+                for ( i = 0 ; i < rows.length ; i ++ ) {
+                    if ( i % 2 == 0 ) {
+                        rows[ i ].className = "evenrowcolor" ;
+                    } else {
+                        rows[ i ].className = "oddrowcolor" ;
+                    }
+                }
+            }
+        }
+        window.onload = function ( ) {
+            altRows ( 'alternatecolor' ) ;
+        }
+        </script>
+        <style type="text/css">
+        table.altrowstable {
+            font-family : verdana, arial, sans-serif ;
+            font-size : 9px ;
+            padding-left : 50px ;
+            color : #333333 ;
+            border-width : 1px ;
+            border-color : #a9c6c9 ;
+            border-collapse : collapse ;
+        }
+        table.altrowstable th {
+            border-width : 1px ;
+            padding : 8px ;
+            border-style : solid ;
+            border-color : #a9c6c9 ;
+        }
+        table.altrowstable thead {
+            font-weight : bold ;
+        }
+        table.altrowstable td {
+            border-width : 1px ;
+            padding : 8px ;
+            border-style : solid ;
+            border-color : #a9c6c9 ;
+        }
+        .oddrowcolor {
+            background-color : #d4e3e5 ;
+        }
+        .evenrowcolor {
+            background-color : none ;
+        }
+        </style>
+    </head>
+    <body>
+
+        <table class="altrowstable" id="alternatecolor" border="1" cellspacing="0" cellpadding="0" style="padding-left : 50 px ; overflow-y = scroll ;">
+            <thead>
+                <th>ExecutionId</th>
+                <th>Cycle</th>
+                <th>Folder Name</th>
+                <th>Issue Key</th>
+                <th>Test Summary</th>
+                <th>Project</th>
+                <th>Component</th>
+                <th>Version</th>
+                <th>Priority</th>
+                <th>Executed By</th>
+                <th>Executed On</th>
+                <th>Execution Status</th>
+                <th>Execution Defect(s)</th>
+                <th>Creation Date</th>
+                <th>Assigned To</th>
+                <th>Execution Custom Field</th>
+                <th>Work Flow Status</th>
+                <th>Total Execution Time</th>
+                <th>Total Logged Time</th>
+                <th>StepId</th>
+                <th>OrderId</th>
+                <th>Step</th>
+                <th>Test Data</th>
+                <th>Expected Result</th>
+                <th>Step Result</th>
+                <th>Comment</th>
+                <th>Test Step Custom Field</th>
+            </thead>
+            <tbody>
+            
+                
+                    <tr>
+                        <td rowspan="9">7dcc8e09-1e4d-423b-b8a2-fcd61e978ada</td>
+                        <td rowspan="9">Guru99 Bank Web App Testing</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">DNT1-39</td>
+                        <td rowspan="9">Verify &quot;Customer Name&quot; field of &quot;New Customer&quot; Module</td>
+                        <td rowspan="9">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">Release 3.0</td>
+                        <td rowspan="9">Medium</td>
+                        <td rowspan="9">IT Factory</td>
+                        <td rowspan="9">19/Jan/24 10:12 PM</td>
+                        <td rowspan="9">PASS</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">12/Jan/24 04:22 PM</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        
+                            <td>3a60d170-a0ff-4f7f-9781-36616cf455f4</td>
+                            <td>1</td>
+                            <td><p>go to web address:  https://demo.guru99.com/V4/index.php</p></td>
+                            <td></td>
+                            <td><p>app login page  is opening</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>0401dbbe-cf8c-4c06-a6d4-004865571b16</td>
+                            <td>2</td>
+                            <td><p>enter credentials and click on login button</p></td>
+                            <td><p>User ID: “mngr547968”; Password: “UmuqUhy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened. </p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>062772f0-78ac-4742-9fd3-f8680bd2d6e8</td>
+                            <td>3</td>
+                            <td><p>click on "New Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>the Add New Cutomer page opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>55cb130e-1af1-41c6-9231-502437bb274e</td>
+                            <td>4</td>
+                            <td><p>verify if numbers are allowed</p></td>
+                            <td><p>insert numbers: 1, 21, as567</p></td>
+                            <td><p>Numbers are not allowed "Numbers are not allowed" message is showed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d2755947-92b0-43b4-916b-b16413a192d6</td>
+                            <td>5</td>
+                            <td><p>verify if special characters are not allowed</p></td>
+                            <td><p>insert special caracters: @, #, $, /, qw@</p></td>
+                            <td><p>Special characters are not allowed "Special Characters are not allowed" message is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>1ca9249a-88dc-4011-8a54-e1c0a3513e20</td>
+                            <td>6</td>
+                            <td><p>verify if the field must not be blank</p></td>
+                            <td><p>click on the field, let it blank </p></td>
+                            <td><p>The field could not be Blank "Customer name must not be blank" message is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a39a3a4f-04b5-4528-92e5-ca60eddafb7f</td>
+                            <td>7</td>
+                            <td><p>verify if first character cannot have space</p></td>
+                            <td><p>insert space</p></td>
+                            <td><p>first character cannot be space "First character can not have space" mesage is showed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>56259dc8-6c74-4382-8494-283e4cb18a70</td>
+                            <td>8</td>
+                            <td><p>verify the field with valid data</p></td>
+                            <td><p>insert "John Smith"</p></td>
+                            <td><p>The field is filled correctly, no error message showed</br>Letters are allowed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>ea27793e-34e9-49b4-bd37-dc5edb24b106</td>
+                            <td>9</td>
+                            <td><p>verify how many letters could be entered</p></td>
+                            <td><p>insert and count how many letter sare allowed</p></td>
+                            <td><p>25 letters is the max field lenght. more letters could not be inserted</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="5">475954bd-2798-4125-9b49-8878e0776ed2</td>
+                        <td rowspan="5">Guru99 Bank Web App Testing</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5">DNT1-40</td>
+                        <td rowspan="5">Verify Gender &quot;Male/Female&quot; Radio Button of &quot;New Customer&quot; Menu</td>
+                        <td rowspan="5">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5">Release 3.0</td>
+                        <td rowspan="5">Medium</td>
+                        <td rowspan="5">IT Factory</td>
+                        <td rowspan="5">19/Jan/24 10:19 PM</td>
+                        <td rowspan="5">PASS</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5">12/Jan/24 05:51 PM</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        
+                            <td>e46ab9ee-19d6-46d1-8f1f-2c24d52b3928</td>
+                            <td>1</td>
+                            <td><p>go to web app address: https://demo.guru99.com/V4/index.php</p></td>
+                            <td></td>
+                            <td><p>app login page  is opening</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>58947b9d-9da8-4ae1-b678-126c49d3fe8e</td>
+                            <td>2</td>
+                            <td><p>enter credentials and click on login button</p></td>
+                            <td><p>User ID: “mngr547968”; Password: “UmuqUhy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>0febd4f5-3647-49d0-9da5-460208b71be4</td>
+                            <td>3</td>
+                            <td><p>click on "New Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>the Add New Cutomer page opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>cbdd3a80-20bb-4679-8714-4045fb750b7e</td>
+                            <td>4</td>
+                            <td><p>verify male and female marks</p></td>
+                            <td><p>click on male mark and on female mark</p></td>
+                            <td><p>male and female can be selected</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>cc6e6361-ce6c-41ae-af56-16ae6bf6c603</td>
+                            <td>5</td>
+                            <td><p>check if male is select, female is deselected and viceversa</p></td>
+                            <td><p>click on male mark and on female mark</p></td>
+                            <td><p>male is selected female is deselected and viceversa</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="11">18594dec-81f4-4834-b3e6-8dfd9c722847</td>
+                        <td rowspan="11">Guru99 Bank Web App Testing</td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11">DNT1-41</td>
+                        <td rowspan="11">Verify &quot;Date of Birth&quot; field of &quot;New Customer&quot; Module</td>
+                        <td rowspan="11">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11">Release 3.0</td>
+                        <td rowspan="11">Medium</td>
+                        <td rowspan="11">IT Factory</td>
+                        <td rowspan="11">19/Jan/24 10:48 PM</td>
+                        <td rowspan="11">FAIL</td>
+                        <td rowspan="11">DNT1-56,DNT1-57,DNT1-58 | DNT1-57,DNT1-58,DNT1-56</td>
+                        <td rowspan="11">19/Jan/24 10:20 PM</td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11"></td>
+                        <td rowspan="11"></td>
+                        
+                            <td>61c84ed4-0d2f-4723-8156-2cde25e88708</td>
+                            <td>1</td>
+                            <td><p>go to web app address:  https://demo.guru99.com/V4/index.php</p></td>
+                            <td></td>
+                            <td><p>login page of guru bank app is showing</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>3ba5ca7e-01e9-4e44-81e9-bc6bc9b4f0cc</td>
+                            <td>2</td>
+                            <td><p>enter credentials and click on login button</p></td>
+                            <td><p>User ID: “mngr547968”; Password: “UmuqUhy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>77a44f58-654a-4fc7-8235-7a12b50d9fcc</td>
+                            <td>3</td>
+                            <td><p>click on "New Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>the Add New Cutomer page opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>ab59060c-fdbf-4c2e-91c7-9f54bfedd1a8</td>
+                            <td>4</td>
+                            <td><p>verify the date field by manual filing with valid data</p></td>
+                            <td><p>click and insert "07/07/1984"</p></td>
+                            <td><p>click outside of the box the date is accepted</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>81262f57-2155-4a07-8a90-cc562fb16b90</td>
+                            <td>5</td>
+                            <td><p>verify if invalid day can not be manual inserted</p></td>
+                            <td><p>insert day 00 and 32</p></td>
+                            <td><p>invalid day can not be inserted</br>day changes itself to 01 or 31 respectively  </p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>4d41fa67-dfe2-4b4a-90c0-4385292c5dd2</td>
+                            <td>6</td>
+                            <td><p>verify if invalid month can not be manual inserted</p></td>
+                            <td><p>insert month 0 and 13</p></td>
+                            <td><p>invalid month can not be inserted</br>day changes itself to 01 or 12 respectively  </p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>1ccfd326-c970-4708-8438-5f2fdf6ee6d9</td>
+                            <td>7</td>
+                            <td><p>verify if invalid year can not be manualy inserted</p></td>
+                            <td><p>insert year 0000</br>insert date 07.05.0001, fill in the rest of the input fields. </br>click submit</p></td>
+                            <td><p>the year 0000 changed to 0001 and has been accepted, no error received.</br>a new customer has been created and saved with date of birth: 07.05.0001</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d78c3740-f0ef-4415-8f11-e04c24401712</td>
+                            <td>8</td>
+                            <td><p>Verify if: invalid year can not be manualy inserted</p></td>
+                            <td><p>insert year 9999 </br>insert date 07.05.9999, fill in the rest of the input fields with valid data. </br>click submit</p></td>
+                            <td><p>the year 9999 has been accepted, no error received. a new customer has been created and saved with date of birth: 07.05.9999</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a53e5283-a0cc-4c05-b68e-fe84469a5c21</td>
+                            <td>9</td>
+                            <td><p>verify if the buttons under the calendar: Clear and Today works</p></td>
+                            <td><p>enter the date 07/07/1984 and click on clear and today</p></td>
+                            <td><p>the buttons worked the date is cleared or changed in today date</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>14758cf4-e0e7-417c-a0e4-5eb6842081b0</td>
+                            <td>10</td>
+                            <td><p>verify if the date field cannot be blank</p></td>
+                            <td><p>click in the date field, let it blank, and click outside the field</p></td>
+                            <td><p>the date field can not be blank</br>the message "Date Field must not be blank" is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>ab9a40d7-f4ed-4197-9ecf-cac1c76b17fb</td>
+                            <td>11</td>
+                            <td><p>Verify if a wrong date manualy inserted will be accepted and validated</p></td>
+                            <td><p>insert 31.02.2010</br>fill in the rest of the fields</br>click submit</p></td>
+                            <td><p>the field accept the values. Wrong message is displayed: "Date Field must not be blank". After submit button is clicked the error message is displayed: “ Please enter a valid date value. The field is incomplete or has an invalid date”.</p></td>
+                            <td>FAIL</td>
+                            <td><p>open bug report. </p></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="8">93d09419-79ca-4045-9548-6a6618b0dea9</td>
+                        <td rowspan="8">Guru99 Bank Web App Testing</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8">DNT1-45</td>
+                        <td rowspan="8">Verify &quot;Address&quot; field of &quot;New Customer&quot; Module</td>
+                        <td rowspan="8">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8">Release 3.0</td>
+                        <td rowspan="8">Medium</td>
+                        <td rowspan="8">IT Factory</td>
+                        <td rowspan="8">21/Jan/24 01:27 PM</td>
+                        <td rowspan="8">PASS</td>
+                        <td rowspan="8">DNT1-55</td>
+                        <td rowspan="8">18/Jan/24 05:09 PM</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        
+                            <td>3afa6b2f-dc42-4d07-8f7a-4eafc3ccd1ea</td>
+                            <td>1</td>
+                            <td><p>go to web address:  https://demo.guru99.com/V4/index.php</p></td>
+                            <td></td>
+                            <td><p>app login page  is opening</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>324fb740-654c-4ec4-bac5-40757e66098d</td>
+                            <td>2</td>
+                            <td><p>enter credentials and click on login button</p></td>
+                            <td><p>User ID: “mngr547968”; Password: “UmuqUhy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>0ad280d0-d7b2-4f1d-bd43-b43d08a54650</td>
+                            <td>3</td>
+                            <td><p>click on "New Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>the Add New Cutomer page opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>920e29ad-806f-4b8d-ac6d-d6e703a05b9d</td>
+                            <td>4</td>
+                            <td><p>verify if Address Field can not be blank</p></td>
+                            <td><p>click on the field and let it blank</p></td>
+                            <td><p>the field can not be blank. the massage"Address field must not be blank" is showed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c35b0bb7-1d98-49b8-a6f1-4a7848374872</td>
+                            <td>5</td>
+                            <td><p>verify if First character can not have space</p></td>
+                            <td><p>click on the field and hit space</p></td>
+                            <td><p>first character can not have space. the message " First character can not have space" is showed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>51538ec5-9592-4e7d-b67d-fa04d47600d1</td>
+                            <td>6</td>
+                            <td><p>verify if Special characters are not allowed</p></td>
+                            <td><p>insert special characters %, ?, $, adf&</p></td>
+                            <td><p>special characters are not allowed. the message "Special characters are not allowed" is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>fd2c6229-69f0-4865-82f3-e1392aff4292</td>
+                            <td>7</td>
+                            <td><p>verify the field by entering valid data: letters and numbers</p></td>
+                            <td><p>enter "Splaiul Unirii 105"</p></td>
+                            <td><p>the address is accepted. </p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>691607cb-5a31-4acf-bc79-3c9be2eedec8</td>
+                            <td>8</td>
+                            <td><p>verify the field lenght</p></td>
+                            <td><p>insert how many caracters you can and count</p></td>
+                            <td><p>there are 50 characters can be filled in address field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="9">fe36518f-8d18-48dd-9ef8-4b95c9972ce9</td>
+                        <td rowspan="9">Guru99 Bank Web App Testing</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">DNT1-46</td>
+                        <td rowspan="9">Verify &quot;City&quot; field of &quot;New Customer&quot; Module</td>
+                        <td rowspan="9">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">Release 3.0</td>
+                        <td rowspan="9">Medium</td>
+                        <td rowspan="9">IT Factory</td>
+                        <td rowspan="9">21/Jan/24 01:28 PM</td>
+                        <td rowspan="9">PASS</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">18/Jan/24 05:50 PM</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        
+                            <td>9fe293b3-3cae-4952-a4db-f9bcbe3e75c1</td>
+                            <td>1</td>
+                            <td><p>go to web address: https://demo.guru99.com/V4/index.php</p></td>
+                            <td></td>
+                            <td><p>app login page  is opening</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>e0294fc9-d918-4677-9980-e2bfd18924df</td>
+                            <td>2</td>
+                            <td><p>enter credentials and click on login button</p></td>
+                            <td><p>User ID: “mngr547968”; Password: “UmuqUhy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>253895d3-1fdf-4e48-8f4e-de24c0a13245</td>
+                            <td>3</td>
+                            <td><p>click on "New Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>click on "New Customer" button from the left menu</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>19c6e547-8f24-46ae-a95d-792825c751dd</td>
+                            <td>4</td>
+                            <td><p>verify if Special character are not allowed</p></td>
+                            <td><p>insert @, #,&, Da$</p></td>
+                            <td><p>"Special character are not allowed" message is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>684dbc13-38bd-4e40-9b36-212bf0296ad4</td>
+                            <td>5</td>
+                            <td><p>verify if City Field must not be blank</p></td>
+                            <td><p>click on the field and let it blank</p></td>
+                            <td><p>"City Field must not be blank" message is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e5a0ff10-e9f7-48d2-a337-8ac47f6aa89f</td>
+                            <td>6</td>
+                            <td><p>verify if Numbers are not allowed</p></td>
+                            <td><p>insert 9, 5, E9</p></td>
+                            <td><p>"Number are not allowed" message is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>26f048d0-23f1-43bc-b4b5-516befcb41db</td>
+                            <td>7</td>
+                            <td><p>verify if First character can not have space</p></td>
+                            <td><p>click on the field and enter space</p></td>
+                            <td><p>"First character can not have space" message is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>0c79927a-a0c2-47cc-aa44-4ca57de4aa99</td>
+                            <td>8</td>
+                            <td><p>verify if field functions with valid data</p></td>
+                            <td><p>insert Bucuresti</p></td>
+                            <td><p>the field works fine</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a0f97303-18f4-4a53-a34d-70cbc630a8a2</td>
+                            <td>9</td>
+                            <td><p>check the field lenght</p></td>
+                            <td><p>insert how many characters you can and count them</p></td>
+                            <td><p>max lenght of the field is 25 characters</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="9">db03998b-ccde-40da-baf0-bb0f588daf5d</td>
+                        <td rowspan="9">Guru99 Bank Web App Testing</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">DNT1-47</td>
+                        <td rowspan="9">Verify &quot;State&quot; field of &quot;New Customer&quot; Module</td>
+                        <td rowspan="9">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">Release 3.0</td>
+                        <td rowspan="9">Medium</td>
+                        <td rowspan="9">IT Factory</td>
+                        <td rowspan="9">21/Jan/24 01:28 PM</td>
+                        <td rowspan="9">PASS</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">18/Jan/24 06:06 PM</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        
+                            <td>714ba580-9204-4e9b-932a-3402959e6a8d</td>
+                            <td>1</td>
+                            <td><p>go to web address: https://demo.guru99.com/V4/index.php</p></td>
+                            <td></td>
+                            <td><p>app login page is opening</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>2ba93c1f-6f6f-421a-9cb1-013df6bf13d4</td>
+                            <td>2</td>
+                            <td><p>enter credentials and click on login button</p></td>
+                            <td><p>User ID: “mngr547968”; Password: “UmuqUhy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>5cae729c-5d6b-4d62-b685-51f779f8afff</td>
+                            <td>3</td>
+                            <td><p>click on "New Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>the Add New Cutomer page opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>4963fbdb-76f6-45a3-a16a-dbcc9ac9099e</td>
+                            <td>4</td>
+                            <td><p>verify if Numbers are not allowed</p></td>
+                            <td><p>insert 2, 6, ds2</p></td>
+                            <td><p>"Numbers are not allowed" message is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d6715f7d-a178-4e24-b564-b3272115496d</td>
+                            <td>5</td>
+                            <td><p>verify if State must not be blank</p></td>
+                            <td><p>click on the field and let it blank</p></td>
+                            <td><p>"State must not be blank" message is showed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>cc1dd8fc-97d8-4f06-b748-3b5c22e3292c</td>
+                            <td>6</td>
+                            <td><p>verify if Special characters are not allowed</p></td>
+                            <td><p>insert tr#, & *</p></td>
+                            <td><p>"Special characters are not allowed" message is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>3cc0c483-009f-4f73-b254-a1f9b3d23a19</td>
+                            <td>7</td>
+                            <td><p>verify if First character cannot have space</p></td>
+                            <td><p>click on the field and insert space</p></td>
+                            <td><p>"First character can not have space" message is showed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>bc6c87f3-6760-4001-995b-bf19899fa3a4</td>
+                            <td>8</td>
+                            <td><p>verify if field functions with valid data</p></td>
+                            <td><p>Enter Prahova</p></td>
+                            <td><p>data accepted, the fiels works fine</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c886ebb8-b23e-4319-b793-2f38a0c392e5</td>
+                            <td>9</td>
+                            <td><p>check the field lenght</p></td>
+                            <td><p>enter how many characters are accepted</p></td>
+                            <td><p>max 25 characters entered</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="9">b6574d7b-2d55-4c92-8bce-3e82aec6cdfc</td>
+                        <td rowspan="9">Guru99 Bank Web App Testing</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">DNT1-49</td>
+                        <td rowspan="9">Verify &quot;Mobile Number&quot; field of &quot;New Customer&quot; Module</td>
+                        <td rowspan="9">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">Release 3.0</td>
+                        <td rowspan="9">Medium</td>
+                        <td rowspan="9">IT Factory</td>
+                        <td rowspan="9">22/Jan/24 02:22 PM</td>
+                        <td rowspan="9">PASS</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">19/Jan/24 09:41 AM</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        
+                            <td>1e6d3981-4b65-4e0a-b1e1-75f3ae3ed29a</td>
+                            <td>1</td>
+                            <td><p>go to web address:  https://demo.guru99.com/V4/index.php</p></td>
+                            <td></td>
+                            <td><p>app login page  is opening</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>0c7ffde6-31ab-4427-b937-9d337035eb3e</td>
+                            <td>2</td>
+                            <td><p>enter credentials and click on login button</p></td>
+                            <td><p>User ID: “mngr547968”; Password: “UmuqUhy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>46725985-c435-4dda-8b6b-abd9156e9734</td>
+                            <td>3</td>
+                            <td><p>click on "New Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>the Add New Cutomer page opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e2012fe3-f365-4f2d-b137-048646492618</td>
+                            <td>4</td>
+                            <td><p>verify if Mobile no must not be blank</p></td>
+                            <td><p>click on the field and let it blank</p></td>
+                            <td><p>"Mobile no must not be blank" message is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>bfde6c0a-ef10-4195-ad91-c40ef77fb983</td>
+                            <td>5</td>
+                            <td><p>verify if Special character are not allowed</p></td>
+                            <td><p>insert special characters: /, @, $, 54#</p></td>
+                            <td><p>"Special character are not allowed" is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e833afa5-d884-427d-ba93-03c66bb91ae6</td>
+                            <td>6</td>
+                            <td><p>verify if Character are not allowed</p></td>
+                            <td><p>insert characters: W, f, 33a</p></td>
+                            <td><p>"Character are not allowed" message is showed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c9c529c9-473d-4c38-a3a6-62463c0153c6</td>
+                            <td>7</td>
+                            <td><p>verify if First character can not have space</p></td>
+                            <td><p>insert space</p></td>
+                            <td><p>"First character can not have space" message received</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e04eac1f-225b-4013-99fd-d05f0e234eb0</td>
+                            <td>8</td>
+                            <td><p>verify if field works with valid data</p></td>
+                            <td><p>insert a valid phone number</br>0040772111111</p></td>
+                            <td><p>field works fine</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>29fc1add-4a2e-4ac2-bb03-9ca5e62c8672</td>
+                            <td>9</td>
+                            <td><p>check the field lenght</p></td>
+                            <td><p>insert how many characters is posible</p></td>
+                            <td><p>15 digits can be inserted which is the maximum lenght for a phone number</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="8">041b9b85-b934-40ba-87f7-d3b87593fcf9</td>
+                        <td rowspan="8">Guru99 Bank Web App Testing</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8">DNT1-50</td>
+                        <td rowspan="8">Verify &quot;E-mail&quot; field of &quot;New Customer&quot; Module</td>
+                        <td rowspan="8">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8">Release 3.0</td>
+                        <td rowspan="8">Medium</td>
+                        <td rowspan="8">IT Factory</td>
+                        <td rowspan="8">22/Jan/24 02:25 PM</td>
+                        <td rowspan="8">PASS</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8">19/Jan/24 10:15 AM</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        
+                            <td>e6347b71-4107-40d4-be42-1a6a7c8ab309</td>
+                            <td>1</td>
+                            <td><p>go to web address:  https://demo.guru99.com/V4/index.php</p></td>
+                            <td></td>
+                            <td><p>app login page  is opening</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>f79a1679-f505-4c4a-8d0f-2f4800cf21fb</td>
+                            <td>2</td>
+                            <td><p>enter credentials and click on login button</p></td>
+                            <td><p>User ID: “mngr547968”; Password: “UmuqUhy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>818bd628-cf3c-4c46-a49d-ded78ba4dad4</td>
+                            <td>3</td>
+                            <td><p>click on "New Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>the Add New Cutomer page opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>da10b148-c5de-4fef-b142-65c223a19bd5</td>
+                            <td>4</td>
+                            <td><p>verify if Email ID must not be blank</p></td>
+                            <td><p>click on the field and let it blank</p></td>
+                            <td><p>"Email-ID must not be blank" message received</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>f42313a7-7e51-4e95-8e53-33dc22adaeb0</td>
+                            <td>5</td>
+                            <td><p>verify if Email ID is not valid</p></td>
+                            <td><p>insert an incomplete email address like abc@</p></td>
+                            <td><p>"Email ID is not valid" massage is displayed</br>the minimum format to validate the email is like: a@a.aa</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>28826b7c-370d-49f6-808c-de358a036bba</td>
+                            <td>6</td>
+                            <td><p>verify if First character can not have space</p></td>
+                            <td><p>insert space</p></td>
+                            <td><p>"First character can not have space" message is showed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>29b3fdd7-5bf6-4229-bc87-d916ed251702</td>
+                            <td>7</td>
+                            <td><p>verify field functions with valid data</p></td>
+                            <td><p>insert name.firstname1984@mail.com</p></td>
+                            <td><p>the field works fine</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>5c6bd907-4c8e-4423-b50a-3384f1b40c32</td>
+                            <td>8</td>
+                            <td><p>check the field lenght</p></td>
+                            <td><p>insert how many characters you can</p></td>
+                            <td><p>30 characters field lenght</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="9">303a1aa7-4a43-4f7f-a4ef-4ce54ec0873d</td>
+                        <td rowspan="9">Guru99 Bank Web App Testing</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">DNT1-60</td>
+                        <td rowspan="9">Verify &quot;PIN&quot; field of &quot;New Customer&quot; module more inputs</td>
+                        <td rowspan="9">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">Release 3.0</td>
+                        <td rowspan="9">High</td>
+                        <td rowspan="9">IT Factory</td>
+                        <td rowspan="9">22/Jan/24 03:32 PM</td>
+                        <td rowspan="9">FAIL</td>
+                        <td rowspan="9">DNT1-63,DNT1-61,DNT1-62 | DNT1-63,DNT1-62,DNT1-61</td>
+                        <td rowspan="9">22/Jan/24 03:07 PM</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        
+                            <td>279ef503-348f-4ceb-a9dd-b4ca426d9fd7</td>
+                            <td>1</td>
+                            <td><p>go to web address: https://demo.guru99.com/V4/index.php</p></td>
+                            <td></td>
+                            <td><p>app login page  is opening</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>5eaded44-bc1f-43c0-90c8-b193623074a1</td>
+                            <td>2</td>
+                            <td><p>enter credentials and click on login button</p></td>
+                            <td><p>User ID: “mngr547968”; Password: “UmuqUhy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>517f8927-cb57-4625-96f9-e41c0a9ca616</td>
+                            <td>3</td>
+                            <td><p>click on "New Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>the Add New Cutomer page opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e6fc4b01-c62f-411e-8563-7f2c7d77de5c</td>
+                            <td>4</td>
+                            <td><p>verify if Special characters are not allowed with inputs: "-" (hyphen) and "+" (plus)</p></td>
+                            <td><p>insert: "+" (plus) or "-" (hyphen)</p></td>
+                            <td><p>"Special characters are not allowed" is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>ad473e18-2e32-4c42-84a2-a662cf80d21f</td>
+                            <td>5</td>
+                            <td><p>verify if Special characters are not allowed with inputs: "-" (hyphen) and "+" (plus) followed by a number</p></td>
+                            <td><p>insert "+1" or "-1"</p></td>
+                            <td><p>message is changed from "Special characters are not allowed" in "PIN Code must have 6 Digits"</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9b5f1899-5a8f-49c5-88f7-ae08beaaf620</td>
+                            <td>6</td>
+                            <td><p>verify if Special characters are not allowed with 6 digits inputs: "-" (hyphen) and "+" (plus) followed by 5 digits number</p></td>
+                            <td><p>insert "+12345" or "-12345"</p></td>
+                            <td><p>the field accepted the inputs</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2aeb1a5b-c596-466c-9ef9-4206860cb9e6</td>
+                            <td>7</td>
+                            <td><p>verify if a new customer can be created and saved in database with PIN inputs: "-" (hyphen) and "+" (plus) followed by 5 digits number</p></td>
+                            <td><p>insert "+12345" and fill in the rest of fields with valid data or "-12345" and fill in the rest of the fields (see in attached the input data used)</p></td>
+                            <td><p>a new customer have been saved and created in both cases</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>94d3fd73-e63c-4602-8632-f5a957a15c51</td>
+                            <td>8</td>
+                            <td><p>check if other combinations of 6 digit inpus of special characters and numbers are accepted by the PIN field</p></td>
+                            <td><p>6 digits inputs checked:</br>"@, #, $, /, *" inserted followed by 5 number or in the middle an the in the end of those 5 numbers</p></td>
+                            <td><p>"Special characters are not allowed" is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>546b3a9a-e4ee-4fbf-a791-5878f29dd9a3</td>
+                            <td>9</td>
+                            <td><p>check if other combinations of 6 digit inpus of characters and numbers are accepted by the PIN field</p></td>
+                            <td><p>6 digits inputs checked:</br>"a12345", "A12345", "12a345", "12A345", "12345a", "12345A"</p></td>
+                            <td><p>"Characters are not allowed" is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="9">9d1ba454-030d-45f8-a1fd-979cbaf84534</td>
+                        <td rowspan="9">Guru99 Bank Web App Testing</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">DNT1-48</td>
+                        <td rowspan="9">Verify &quot;PIN&quot; field of &quot;New Customer&quot; Module</td>
+                        <td rowspan="9">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">Release 3.0</td>
+                        <td rowspan="9">Medium</td>
+                        <td rowspan="9">IT Factory</td>
+                        <td rowspan="9">23/Jan/24 11:08 AM</td>
+                        <td rowspan="9">PASS</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">19/Jan/24 09:22 AM</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        
+                            <td>2bacd58c-c7f4-425b-bfd2-a1420ef1a863</td>
+                            <td>1</td>
+                            <td><p>go to web address:  https://demo.guru99.com/V4/index.php</p></td>
+                            <td></td>
+                            <td><p>app login page  is opening</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>a2f2bc1d-db1a-4afb-88af-779d3a22d945</td>
+                            <td>2</td>
+                            <td><p>enter credentials and click on login button</p></td>
+                            <td><p>User ID: “mngr547968”; Password: “UmuqUhy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>5e0b57c1-fff9-4412-9abd-617d82149c40</td>
+                            <td>3</td>
+                            <td><p>click on "New Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>the Add New Cutomer page opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>ebdd82cf-794c-4e1c-9360-53cdc3fff538</td>
+                            <td>4</td>
+                            <td><p>verify if Characters are not allowed</p></td>
+                            <td><p>insert letters: a, A, 12A</p></td>
+                            <td><p>"Characters are not allowed" message is showed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>4623d289-4657-408c-a781-d127eff19b2d</td>
+                            <td>5</td>
+                            <td><p>verify if PIN Code must not be blank</p></td>
+                            <td><p>click on the field and let it blank</p></td>
+                            <td><p>"PIN Code must not be blank" message is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>5b835ba3-4d4d-431f-850b-5241041fe7be</td>
+                            <td>6</td>
+                            <td><p>verify if Special characters are not allowed</p></td>
+                            <td><p>insert special characters @,#,/,$, 12%</p></td>
+                            <td><p>"Special characters are not allowed" message is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>dfc341f5-7b06-4cfb-b589-5d2584a56d90</td>
+                            <td>7</td>
+                            <td><p>verify if PIN Code must have 6 Digits</p></td>
+                            <td><p>insert less than 6 digits or more than 6 digits</p></td>
+                            <td><p>more than 6 digits cannot be inserted, if less message "PIN Code must have 6 Digits" is received</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2b711eb8-92ce-49d7-b772-4e35dfe86852</td>
+                            <td>8</td>
+                            <td><p>verify if First character can not have space</p></td>
+                            <td><p>insert space</p></td>
+                            <td><p>"First character can not have space" message is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>fc144550-4c11-4148-862e-2e357792204a</td>
+                            <td>9</td>
+                            <td><p>verify if field works with valid data</p></td>
+                            <td><p>insert a valid pin code: 478559</p></td>
+                            <td><p>fields works fine</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="8">a1f9c687-bf77-48bb-b952-01d29541f295</td>
+                        <td rowspan="8">Guru99 Bank Web App Testing</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8">DNT1-51</td>
+                        <td rowspan="8">Verify &quot;Password&quot; field of &quot;New Customer&quot; Module</td>
+                        <td rowspan="8">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8">Release 3.0</td>
+                        <td rowspan="8">Medium</td>
+                        <td rowspan="8">IT Factory</td>
+                        <td rowspan="8">23/Jan/24 11:13 AM</td>
+                        <td rowspan="8">FAIL</td>
+                        <td rowspan="8">DNT1-54 | DNT1-54</td>
+                        <td rowspan="8">19/Jan/24 10:54 AM</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        
+                            <td>5f99fd28-b630-4ed6-8661-275242dea80d</td>
+                            <td>1</td>
+                            <td><p>go to web address: https://demo.guru99.com/V4/index.php</p></td>
+                            <td></td>
+                            <td><p>app login page is opening</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>54d8f140-f43d-4a8c-90f7-524af28a4d6c</td>
+                            <td>2</td>
+                            <td><p>enter credentials and click on login button</p></td>
+                            <td><p>User ID: “mngr547968”; Password: “UmuqUhy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>00b093df-0035-4957-abbd-4e9e3831a55e</td>
+                            <td>3</td>
+                            <td><p>click on "New Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>the Add New Cutomer page opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>07edb69b-f004-4126-9a60-dc0612dffc8b</td>
+                            <td>4</td>
+                            <td><p>check if if entered characters are showed when typing</p></td>
+                            <td><p>enter characters</p></td>
+                            <td><p>cannot see what you are typing in the pasword field. point is showed when typing</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>6c8583e9-2e76-4cfe-93ef-5a0a921835aa</td>
+                            <td>5</td>
+                            <td><p>check if if numbers, letters and special characters are accepted</p></td>
+                            <td><p>insert numbers, spcial characters and uppercase or lowercase letters, even space: @#Qa12$</p></td>
+                            <td><p>all kind of characters are accepted, space is accepted</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>dd624e34-dd04-439f-9be1-87a6e856ddae</td>
+                            <td>6</td>
+                            <td><p>check which is minimum number of characters accepted</p></td>
+                            <td><p>insert only one letter</p></td>
+                            <td><p>it seems that only one character is accepted</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>beb094d3-c3f2-4b9f-b621-b08e534f47ea</td>
+                            <td>7</td>
+                            <td><p>check the field lenght</p></td>
+                            <td><p>insert how many </br>characters you can</p></td>
+                            <td><p>cannot figure out the field lenght because you can not see what are you typing. I checked 15 characters and they are accepted.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>1703f2b3-c47b-4a4c-8505-f19272cb4a93</td>
+                            <td>8</td>
+                            <td><p>verify if the field cannot be blank</p></td>
+                            <td><p>click on the field and let it blank</p></td>
+                            <td><p>the message: "Password must not be blank" is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">54762bad-d53e-40d9-b73e-16d8c84f1124</td>
+                        <td rowspan="6">Guru99 Bank Web App Testing</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">DNT1-52</td>
+                        <td rowspan="6">Verify how the &quot;New Customer&quot; Module works</td>
+                        <td rowspan="6">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Release 3.0</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6">IT Factory</td>
+                        <td rowspan="6">24/Jan/24 09:15 AM</td>
+                        <td rowspan="6">PASS</td>
+                        <td rowspan="6">DNT1-53</td>
+                        <td rowspan="6">19/Jan/24 10:56 AM</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        
+                            <td>7f40b802-2359-45bc-8502-122a6eaced9f</td>
+                            <td>1</td>
+                            <td><p>go to web address:  https://demo.guru99.com/V4/index.php</p></td>
+                            <td></td>
+                            <td><p>app login page  is opening</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>c7a210bb-206e-405c-b833-e5d34764a3bb</td>
+                            <td>2</td>
+                            <td><p>enter credentials and click on login button</p></td>
+                            <td><p>User ID: “mngr547968”; Password: “UmuqUhy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c7e56f5a-d428-424f-9602-a7c2b9229304</td>
+                            <td>3</td>
+                            <td><p>click on "New Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>the Add New Cutomer the page loads and all the fields that need to be filled in are blank</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>380ad777-0c5d-4780-ac8e-5f4737abcc01</td>
+                            <td>4</td>
+                            <td><p>verify if a new customer can be created</p></td>
+                            <td><p>insert specified data set and click submit</p></td>
+                            <td><p>the error message is displayed "Your User id is wrong please provide correct userid" New customer cannot be created</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>0403a312-9433-479d-9d7d-e9f561d7bcd4</td>
+                            <td>5</td>
+                            <td><p>Verify the reset button</p></td>
+                            <td><p>insert valid data in all the field or only in one field and click reset</p></td>
+                            <td><p>all fields are cleared. the reset button works fine</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a8793d4f-0838-4b85-92e3-9182d71b8a6a</td>
+                            <td>6</td>
+                            <td><p>verfy if same E-mail Id exist in the system, system shows an error (manager role)</p></td>
+                            <td><p>add a new customer using the specified data set and add a new one with the same email</p></td>
+                            <td><p>a new customer cannot be added the functional validation works. The message: "Email Address Already Exist !!" is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">aad17e62-f369-4108-bad0-60f794fab43a</td>
+                        <td rowspan="6">Guru99 Bank Web App Testing</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">DNT1-65</td>
+                        <td rowspan="6">Opening the &quot;New Customer&quot; menu - UI test</td>
+                        <td rowspan="6">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Release 3.0</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6">IT Factory</td>
+                        <td rowspan="6">24/Jan/24 09:43 AM</td>
+                        <td rowspan="6">FAIL</td>
+                        <td rowspan="6">DNT1-66 | DNT1-66</td>
+                        <td rowspan="6">22/Jan/24 04:46 PM</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        
+                            <td>cc08358c-1ffa-45c1-a004-44095ad297f5</td>
+                            <td>1</td>
+                            <td><p>go to web address:  https://demo.guru99.com/V4/index.php</p></td>
+                            <td></td>
+                            <td><p>app login page  is opening</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>e2bb9ca3-a319-4e72-9e6d-a7db345648c9</td>
+                            <td>2</td>
+                            <td><p>enter credentials and click on login button</p></td>
+                            <td><p>User ID: “mngr547968”; Password: “UmuqUhy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>675e0cc7-31a6-487a-8261-954827d021c8</td>
+                            <td>3</td>
+                            <td><p>verify if "New Customer" menu is opening</p></td>
+                            <td><p>click on "New Customer" button from the left menu</p></td>
+                            <td><p>the Add New Customer page is opening</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>0d27e444-897d-43bf-8902-99c324594908</td>
+                            <td>4</td>
+                            <td><p>check if the page is displaying corectly</p></td>
+                            <td></td>
+                            <td><p>the text is correct, there are no broken images, text or misalignments. not all the fields are empty. Email and Password fields are pre-filled with the log in credentials. No marks or comments for the mandatory fields.</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>bb91259a-8b1b-450e-acae-801663d22e0e</td>
+                            <td>5</td>
+                            <td><p>verify if: can click on the elements of the page: buttons, input fields</p></td>
+                            <td><p>click and check on every element from the page</p></td>
+                            <td><p>works corectly</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>72a8001e-fa5c-47f5-a203-1d18aa93f8b8</td>
+                            <td>6</td>
+                            <td><p>verify if: can navigate between diferent input fields and buttons by using tab key</p></td>
+                            <td><p>click in the first input field and use tab key</p></td>
+                            <td><p>works correctly</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">79d0c786-f6b7-4221-95b2-a54cc4c98882</td>
+                        <td rowspan="6">Guru99 Bank Web App Testing</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">DNT1-72</td>
+                        <td rowspan="6">Opening the &quot;Edit Customer&quot; menu - GUI test</td>
+                        <td rowspan="6">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Release 3.0</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6">IT Factory</td>
+                        <td rowspan="6">27/Feb/24 03:54 PM</td>
+                        <td rowspan="6">PASS</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">27/Feb/24 12:20 PM</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        
+                            <td>b4ba677b-60e4-4f84-8967-3c26d9880c58</td>
+                            <td>1</td>
+                            <td><p>go to web address:  https://demo.guru99.com/V4/index.php</p></td>
+                            <td></td>
+                            <td><p>app login page  is opening</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>5544fe85-c6be-4b47-8145-6a15c3ce8e5f</td>
+                            <td>2</td>
+                            <td><p>enter credentials and click on login button</p></td>
+                            <td><p>User ID: “mngr555278”; Password: “AqYgepy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>98e10220-010d-4855-9b82-abbb0428202f</td>
+                            <td>3</td>
+                            <td><p>verify if the "Edit Customer" menu is opening</p></td>
+                            <td><p>click on "Edit Customer" button from the left menu</p></td>
+                            <td><p>the "Edit Customer" menu is opening. the specified fields and buttons are displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>0c5fba81-8646-4802-b197-d8857fac043f</td>
+                            <td>4</td>
+                            <td><p>check if the page is displayed corectly</p></td>
+                            <td></td>
+                            <td><p>the text is correct, there are no broken images, text or misalignments. the fields empty.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d7a3aa33-d2cd-47d0-8090-f766218e489d</td>
+                            <td>5</td>
+                            <td><p>verify if: can click on the elements of the page: buttons, input fields</p></td>
+                            <td><p>click and check the fields</p></td>
+                            <td><p>works corectly</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c84a759b-c6c9-4d5f-adac-bf499dbe7750</td>
+                            <td>6</td>
+                            <td><p>verify if: can navigate between diferent input fields and buttons by using tab key</p></td>
+                            <td></td>
+                            <td><p>works corectly</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">d751e025-05c0-49bb-b23f-8f9d101e403a</td>
+                        <td rowspan="6">Guru99 Bank Web App Testing</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">DNT1-76</td>
+                        <td rowspan="6">Verify &quot;Customer ID&quot; field of &quot;Delete Customer&quot; Module</td>
+                        <td rowspan="6">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Release 3.0</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6">IT Factory</td>
+                        <td rowspan="6">27/Feb/24 03:56 PM</td>
+                        <td rowspan="6">PASS</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">27/Feb/24 03:19 PM</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        
+                            <td>a535500d-2b2e-4e7d-9c6d-06d9c6951045</td>
+                            <td>1</td>
+                            <td><p>log in the app</p></td>
+                            <td><p>User ID: “mngr555278”; Password: “AqYgepy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>87c6d7c9-5bb0-4cd9-9e55-6cc8cb426a19</td>
+                            <td>2</td>
+                            <td><p>click on "Delete Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>the Delete Customer page opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>62af835c-1f80-4acd-a99f-fa47a4bd085c</td>
+                            <td>3</td>
+                            <td><p>check if the Customer ID filed is required</p></td>
+                            <td><p>let the field blank and press submit button</p></td>
+                            <td><p>the message "Please fill all fields" was displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>42341b79-4e88-4b67-95a7-d00654c55f6d</td>
+                            <td>4</td>
+                            <td><p>check if Special character are not allowed</p></td>
+                            <td><p>insert @#$</p></td>
+                            <td><p>the message: "Special characters are not allowed" was displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2d3ff18f-5e58-4050-91b1-237ad62f7188</td>
+                            <td>5</td>
+                            <td><p>check if Characters are not allowed</p></td>
+                            <td><p>insert abcde</p></td>
+                            <td><p>the message:: "Characters are not allowed" was displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>7863283c-5f1e-45ca-9d28-ff3a63604e82</td>
+                            <td>6</td>
+                            <td><p>check if First character can not have space</p></td>
+                            <td><p>hit space key</p></td>
+                            <td><p>the message: First character can not have space" is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">2329a4dd-770d-4ee7-9173-368fe654b9c5</td>
+                        <td rowspan="6">Guru99 Bank Web App Testing</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">DNT1-73</td>
+                        <td rowspan="6">Verify the &quot;Customer ID&quot; field of &quot;Edit Cutomer&quot; Module</td>
+                        <td rowspan="6">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Release 3.0</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6">IT Factory</td>
+                        <td rowspan="6">27/Feb/24 03:56 PM</td>
+                        <td rowspan="6">PASS</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">27/Feb/24 03:43 PM</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        
+                            <td>f50bf346-a8a8-42fe-9989-4c5a228b5e67</td>
+                            <td>1</td>
+                            <td><p>log in the app</p></td>
+                            <td><p>User ID: “mngr555278”; Password: “AqYgepy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened. </p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>7b41882c-40b5-469c-8805-aeec2c48e5d4</td>
+                            <td>2</td>
+                            <td><p>click on "Edit Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>the Edit Customer page opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>01d594d6-7800-4a93-ade6-0d21f0c4f614</td>
+                            <td>3</td>
+                            <td><p>check if the Customer ID filed is required</p></td>
+                            <td><p>let the field blank and press submit button</p></td>
+                            <td><p>the message "Please fill all fields" was displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>7324fe31-b4ef-4982-b792-c49622b47865</td>
+                            <td>4</td>
+                            <td><p>check if Special character are not allowed</p></td>
+                            <td><p>insert @#$</p></td>
+                            <td><p>the message: "Special characters are not allowed" was displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>3ff021cb-b3a0-42fd-a713-efe8e5636f20</td>
+                            <td>5</td>
+                            <td><p>check if Characters are not allowed</p></td>
+                            <td><p>insert abcde</p></td>
+                            <td><p>the message:: "Characters are not allowed" was displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c775698a-3499-4adf-912b-5cae0d84a381</td>
+                            <td>6</td>
+                            <td><p>check if First character can not have space</p></td>
+                            <td><p>hit space key</p></td>
+                            <td><p>the message: First character can not have space" is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="7">732f0e08-18a0-4f61-87d0-dca6adbf5d2b</td>
+                        <td rowspan="7">Guru99 Bank Web App Testing</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">DNT1-77</td>
+                        <td rowspan="7">Verify functionality of &quot;Delete Customer&quot; Module</td>
+                        <td rowspan="7">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">Release 3.0</td>
+                        <td rowspan="7">Medium</td>
+                        <td rowspan="7">IT Factory</td>
+                        <td rowspan="7">27/Feb/24 03:57 PM</td>
+                        <td rowspan="7">PASS</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">27/Feb/24 03:50 PM</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        
+                            <td>5a291048-7933-44ab-816f-1616b4742079</td>
+                            <td>1</td>
+                            <td><p>log in the app</p></td>
+                            <td><p>User ID: “mngr555278”; Password: “AqYgepy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>ed5e72dd-7e9c-456c-8f84-0989ae0d0fda</td>
+                            <td>2</td>
+                            <td><p>click on "Delete Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>the Delete Customer page opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>fb34edd3-5d42-4cc7-9c21-7ce882540cfe</td>
+                            <td>3</td>
+                            <td><p>check the reset button</p></td>
+                            <td><p>insert: 123456 and press reset data</p></td>
+                            <td><p>the Customer ID fields content have been deleted</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>fb9e8386-f271-448a-bd27-2f11ba9fa8d2</td>
+                            <td>4</td>
+                            <td><p>Verify the Customer ID field with invalid data number and check the submit button</p></td>
+                            <td><p>insert: 123456 and press submit button</p></td>
+                            <td><p>the submit data works fine. a pop up window with the following message opened: "Customer does not exist!!"</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e1096840-7add-4c6d-b03e-0d8eb7dfa512</td>
+                            <td>5</td>
+                            <td><p>Verify the Customer ID field functions with valid data and the customer will be deleted</p></td>
+                            <td><p>insert 76548</p></td>
+                            <td><p>the message "Do you really want to delete to delete this custumer" is showned and the buttons "cancel" and "ok" are displayed below of the message.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>181b5ad7-dbee-4591-9e2c-0df9e39501a0</td>
+                            <td>6</td>
+                            <td><p>Verify the Customer ID field functions with valid data and the customer will be deleted</p></td>
+                            <td><p>insert 76548</br>press "cancel" button</p></td>
+                            <td><p>cancel button works fine</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2dcc813a-e732-4911-bf2b-63a3e55fc63e</td>
+                            <td>7</td>
+                            <td><p>Verify the Customer ID field functions with valid data and the customer will be deleted</p></td>
+                            <td><p>insert 76548</br>press "ok" button</p></td>
+                            <td><p>the customer was deleted</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">94161899-efa2-43f4-b608-82b21b2f1bcf</td>
+                        <td rowspan="6">Guru99 Bank Web App Testing</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">DNT1-74</td>
+                        <td rowspan="6">Verify functionality of &quot;Edit Customer&quot; Module</td>
+                        <td rowspan="6">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Release 3.0</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6">IT Factory</td>
+                        <td rowspan="6">27/Feb/24 03:57 PM</td>
+                        <td rowspan="6">PASS</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">27/Feb/24 03:51 PM</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        
+                            <td>cb62f387-48a9-42ba-bb50-b76da189febc</td>
+                            <td>1</td>
+                            <td><p>log in the guru99 app</p></td>
+                            <td><p>User ID: “mngr555278”; Password: “AqYgepy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>4e76073e-9d4e-439e-9006-d2d514304cb3</td>
+                            <td>2</td>
+                            <td><p>click on "Edit Customer" button from the left menu</p></td>
+                            <td></td>
+                            <td><p>the Edit Customer page opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>04d0b13e-089d-447e-9211-c260369873fe</td>
+                            <td>3</td>
+                            <td><p>check the reset button</p></td>
+                            <td><p>insert the customer id: 83952 and click reset</p></td>
+                            <td><p>the Customer ID fields content have been deleted</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d79a75d3-7066-4df6-a7e5-77c479f12a12</td>
+                            <td>4</td>
+                            <td><p>Verify the Customer ID field with invalid data number and check the submit button</p></td>
+                            <td><p>insert: 123456 and press submit button</p></td>
+                            <td><p>the submit data works fine. a pop up window with the following message opened: "Customer does not exist!!"</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2df3fab6-d9bf-48fa-b440-c67bca734ff6</td>
+                            <td>5</td>
+                            <td><p>verify the Customer ID field functions with valid data</p></td>
+                            <td><p>insert the customer id: 83952 and click submit</p></td>
+                            <td><p>customer was edited. all the  required fields are showen</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>07727441-0d02-4a30-ad62-b94ab26cc313</td>
+                            <td>6</td>
+                            <td><p>verify if can edit details like address, email, telephone of a customer.</p></td>
+                            <td><p>click and try to change the address field, email field and telephone field</p></td>
+                            <td><p>the fields are editable and the containing data can be changed. functional validation is met.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">3e7e85fb-241a-470e-9bf5-29cc81b0028b</td>
+                        <td rowspan="6">Guru99 Bank Web App Testing</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">DNT1-75</td>
+                        <td rowspan="6">Opening the &quot;Delete Customer&quot; Module - GUI test</td>
+                        <td rowspan="6">Dragos Nechifor TMtA 19</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Release 3.0</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6">IT Factory</td>
+                        <td rowspan="6">27/Feb/24 03:58 PM</td>
+                        <td rowspan="6">PASS</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">27/Feb/24 03:53 PM</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        
+                            <td>ef826679-72ef-4c66-bf27-c97d4b9d96c9</td>
+                            <td>1</td>
+                            <td><p>go to web address:  https://demo.guru99.com/V4/index.php</p></td>
+                            <td></td>
+                            <td><p>app login page  is opening</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>56aaa056-f4b8-409b-8ee5-8ff6e383e225</td>
+                            <td>2</td>
+                            <td><p>enter credentials and click on login button</p></td>
+                            <td><p>User ID: “mngr555278”; Password: “AqYgepy”</p></td>
+                            <td><p>loged in the app. Welcoming page opened.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>ad1676ff-1a69-4710-bb60-47fc8befa824</td>
+                            <td>3</td>
+                            <td><p>verify if the "Delete Customer" menu is opening</p></td>
+                            <td><p>click on "Delete Customer" button from the left menu</p></td>
+                            <td><p>the "Edit Customer" menu is opening. the specified fields and buttons are displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9b450f0a-cf2e-4b67-9cda-f2a155f48d5c</td>
+                            <td>4</td>
+                            <td><p>check if the page is displayed corectly</p></td>
+                            <td></td>
+                            <td><p>the text is correct, there are no broken images, text or misalignments. the fields empty.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>93a790bf-739c-45ad-b1c5-ee71bdabca42</td>
+                            <td>5</td>
+                            <td><p>verify if: can click on the elements of the page: buttons, input fields</p></td>
+                            <td><p>click and check the fields</p></td>
+                            <td><p>works corectly</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>ae62b6d8-fbaf-4d7f-9b91-7b40501c893f</td>
+                            <td>6</td>
+                            <td><p>verify if: can navigate between diferent input fields and buttons by using tab key</p></td>
+                            <td></td>
+                            <td><p>works corectly</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+            </tbody>
+        </table>
+    </body>
+</html>

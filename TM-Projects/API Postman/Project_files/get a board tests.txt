@@ -1,0 +1,34 @@
+// Verify the response status code
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+// Verify if the response is in JSON format
+pm.test("Response is JSON", function () {
+    pm.response.to.be.json;
+});
+
+// Verify the response structure
+pm.test("Response has all required fields", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData).to.have.property("id");
+    pm.expect(jsonData).to.have.property("name");
+    pm.expect(jsonData).to.have.property("desc");
+    pm.expect(jsonData).to.have.property("closed");
+    pm.expect(jsonData).to.have.property("idOrganization");
+});
+
+// Verify the values in the response
+pm.test("Response values are correct", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.name).to.be.a("string"); // Verify that the name is a string
+    pm.expect(jsonData.closed).to.be.a("boolean"); // Verify that closed is a boolean
+    pm.expect(jsonData.idOrganization).to.be.a("string"); // Verify that idOrganization is a string
+});
+
+// Verify if the board ID matches the expected value
+pm.test("Board ID matches the expected value", function () {
+    var jsonData = pm.response.json();
+    var expectedBoardId = pm.environment.get("postmanBoardID"); // Get the previously saved board ID from the environment
+    pm.expect(jsonData.id).to.eql(expectedBoardId);
+});

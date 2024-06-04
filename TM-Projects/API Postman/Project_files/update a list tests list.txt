@@ -1,0 +1,15 @@
+// Verify the response status code for initial delete
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+// Verify if the response is in JSON format
+pm.test("Response is JSON", function () {
+    pm.response.to.be.json;
+});
+
+// Verify if the response indicates successful deletion
+pm.test("Response indicates successful deletion", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData._value).to.be.null;
+});

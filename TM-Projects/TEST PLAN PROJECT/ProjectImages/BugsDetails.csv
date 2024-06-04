@@ -1,0 +1,369 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Fix versions,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Inward issue link (Relates),Inward issue link (Relates),Outward issue link (Relates),Attachment,Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Affected hardware),Custom field (Affected services),Custom field (Atlas project key),Custom field (Atlas project status),Custom field (Backout plan),Custom field (Category),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Link),Epic Link Summary,Custom field (Flagged),Custom field (Impact),Custom field (Implementation plan),Custom field (Investigation reason),Custom field (Issue color),Custom field (Locked forms),Custom field (Major incident),Custom field (Open forms),Custom field (Pending reason),Custom field (Planned end),Custom field (Planned start),Custom field (Rank),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Responders),Custom field (Root cause),Satisfaction rating,Custom field (Severity),Custom field (Source),Custom field (Start date),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Test plan),Custom field (Time to close after resolution),Custom field (Time to first response),Custom field (Time to resolution),Custom field (Time to review normal change),Custom field (Total forms),Custom field (Urgency),Custom field (Work category),Custom field (Workaround),Custom field ([CHART] Date of First Response),Comment,Parent,Parent summary,Status Category,Status Category Changed
+"Cannot Add a New Customer using the ""New Customer"" Module",DNT1-53,14208,Bug,Done,DNT1,Dragos Nechifor TMtA 19,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Highest,Done,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,19/Jan/24 1:48 PM,27/Feb/24 11:46 AM,27/Feb/24 5:15 PM,26/Feb/24 4:33 PM,Release 3.0,,0,"*Preconditions:*
+
+# Computer run Windows 7 or MacOS Sierra, Ram 4GB, CPU 3.4GHZ minimum 
+# Google Chrome Version 27 or above installed
+# Internet line with the speed at least 5 Mb/s
+# Fill in all fields with valid data (data set used is specified below)
+
+*Data set used for testing:*
+
+# Customer Name: Paul Kent
+# Gender: male
+# Date of birth: 20 Jan 2000
+# Address: 14 street
+# City: Ames
+# State: IOWA
+# PIN: 123456
+# Mobile number: 10203040
+# Email: [paul.kent@yahoo.com|mailto:paul.kent@yahoo.com]
+# Password: 1
+
+*Reproduction Steps:*
+
+# Go to web address: [https://demo.guru99.com/V4/index.php|https://demo.guru99.com/V4/index.php]
+# Log in the app by entering the credentials: User ID: “*mngr547968”;* Password*: “UmuqUhy”*
+# Click on ""New Customer"" button from the left menu
+# Insert specified data set and click Submit
+
+*Expected Results:*
+
+A New Customer has been created and saved in the database
+
+*Actual Results:*
+
+Error massage was received: Your User id is wrong please provide correct userid. The New Costumer has not been created and has not been added to the database",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,DNT1-38,,,DNT1-52,,,,,,,,,,,,,,,DNT1-37,"Test the ""Guru99 Bank Web Application""",Impediment,,,,,,,,,,,0|i00loz:,,,,,,,,,,,,,,,,,,,,,,,,,"21/Jan/24 3:08 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;(flag) Flag added 
+
+Bug fixed",13951,"Test the ""Guru99 Bank Web Application""",Done,26/Feb/24 4:33 PM
+"The ""Password"" field of ""New Customer"" Module accepts one character",DNT1-54,14239,Bug,In Progress,DNT1,Dragos Nechifor TMtA 19,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Highest,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,19/Jan/24 5:20 PM,27/Feb/24 11:45 AM,27/Feb/24 5:15 PM,,Release 3.0,,0,"*Preconditions:*
+
+# Computer run Windows 7 or MacOS Sierra, Ram 4GB, CPU 3.4GHZ minimum 
+# Google Chrome Version 27 or above installed
+# Internet line with the speed at least 5 Mb/s
+# Fill in all the fields with valid data (data set used is specified below)
+
+*Data set used for testing:*
+
+# Customer Name: Paul Kent
+# Gender: male
+# Date of birth: 20 Jan 2000
+# Address: 14 street
+# City: Ames
+# State: IOWA
+# PIN: 123456
+# Mobile number: 10203040
+# Email: [paul.kent@yahoo.com|mailto:paul.kent@yahoo.com]
+# Password: 1 (only one character)
+
+*Reproduction Steps:*
+
+# Go to web address: [https://demo.guru99.com/V4/index.php|https://demo.guru99.com/V4/index.php]
+# Log in the app by entering the credentials: User ID: “*mngr547968”;* Password*: “UmuqUhy”*
+# Click on ""New Customer"" button from the left menu
+# Insert specified data set and click Submit
+
+*Expected Results:*
+
+For security reasons the password should contain a stringent requirements so that there are no vulnerabilities of the application and implicitly on the database (for example: minimum of 8 characters, a capital letter and numbers or special characters)
+An error message has been displayed and/or the submit button should not have been pressable.
+
+The password field should have been documented. no reference was found in SRS v1.3
+
+*Actual Results:*
+
+No Error massages is displayed, Submit button can be press with just one character entered in the password field.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,DNT1-38,,,DNT1-51,,,,,,,,,,,,,,,DNT1-37,"Test the ""Guru99 Bank Web Application""",,,,,,,,,,,,0|i00lp3:,,,,,,,,,,,,,,,,,,,,,,,,,,13951,"Test the ""Guru99 Bank Web Application""",In Progress,26/Feb/24 4:46 PM
+"The ""Address"" field of ""New Customer"" should have allowed some special characters ",DNT1-55,14256,Bug,In Progress,DNT1,Dragos Nechifor TMtA 19,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,19/Jan/24 10:54 PM,27/Feb/24 11:43 AM,27/Feb/24 5:15 PM,,Release 3.0,,0,"*Preconditions:*
+
+# Computer run Windows 7 or MacOS Sierra, Ram 4GB, CPU 3.4GHZ minimum 
+# Google Chrome Version 27 or above installed
+# Internet line with the speed at least 5 Mb/s
+
+*Reproduction Steps:*
+
+# Go to web address: [https://demo.guru99.com/V4/index.php|https://demo.guru99.com/V4/index.php]
+# Log in the app by entering the credentials: User ID: “*mngr547968”;* Password*: “UmuqUhy”*
+# Click on ""New Customer"" button from the left menu
+# Insert the real address: 83/12 Washinton blvd., Building no. 105-107
+
+*Expected Results:*
+
+The Address to be accepted. Special Characters to be accepted in the address field (at least the usual: coma
+
+
+
+*Actual Results:*
+
+Error massage was received: “Special Characters are not allowed”
+
+The address was not accepted.
+
+The tehnical requirement specified in documentation is met but the actual correct address cannot be entered.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,,DNT1-45,DNT1-38,DNT1-45,,,,,,,,,,,,,,,DNT1-37,"Test the ""Guru99 Bank Web Application""",,,,,,,,,,,,0|i00lsj:,,,,,,,,,,,,,,,,,,,,,,,,,,13951,"Test the ""Guru99 Bank Web Application""",In Progress,26/Feb/24 4:46 PM
+"""Date of Birth"" Input field of "" New customer"" Error. Year 0001 accepted and validated!",DNT1-56,14257,Bug,In Progress,DNT1,Dragos Nechifor TMtA 19,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,19/Jan/24 11:03 PM,27/Feb/24 11:43 AM,27/Feb/24 5:15 PM,,Release 3.0,,0,"*Preconditions:*
+
+# Computer run Windows 7 or MacOS Sierra, Ram 4GB, CPU 3.4GHZ minimum 
+# Google Chrome Version 27 or above installed
+# Internet line with the speed at least 5 Mb/s
+
+*Reproduction Steps:* 
+
+# Go to web address [+https://demo.guru99.com/V4/index.php+|https://demo.guru99.com/V4/index.php]
+# Enter credentials User ID: “*mngr547968”;* Password*: “UmuqUhy”* and press “log in” button
+# Click on “New Customer” button from the left menu
+# Click on the field and insert the date (dd/mm/yyyy): 07.05.0001
+# Fill in the rest of the fields with valid data (see the data set used bellow) and click submit
+
+*Expected result:*
+
+Date of birth field to be limited.
+An invalid date of birth cannot be entered
+An error message is displayed
+The submit button cannot be pressed
+The wrong date of birth cannot be validated and a new customer cannot be saved in the database
+
+*Actual Result:*
+
+A wrong date can be entered: it is accepted by the input field, validated and a New Customer is saved in the database with the date of birth 07.05.0001
+
+
+
+*Note: The “Date of Birth” is not documented in SRS v1.3*
+
+
+
+*Data set:*
+
+Customer Name: Smith
+
+Gender: Male
+
+Birthdate: 07.05.0001
+
+Address: 13st
+
+City: city
+
+State: state
+
+Pin: 987654
+
+Mobile Number: 00405566887788
+
+Email: smith@mail.com
+
+Password: #Year0001#",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,,,,DNT1-41,21/Jan/24 2:10 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;Screenshot 2024-01-19 at 23.20.12.png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/10685,,,,,,,,,,,,,,DNT1-37,"Test the ""Guru99 Bank Web Application""",,,,,,,,,,,,0|i00lsr:,,,,,,,,,,,,,,,,,,,,,,,,,,13951,"Test the ""Guru99 Bank Web Application""",In Progress,26/Feb/24 4:46 PM
+"""Date of birth"" Input field of "" New customer"" Error.  Year 9999 accepted and validated!",DNT1-57,14258,Bug,In Progress,DNT1,Dragos Nechifor TMtA 19,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,19/Jan/24 11:03 PM,27/Feb/24 11:42 AM,27/Feb/24 5:15 PM,,Release 3.0,,0,"*Preconditions:*
+
+# Computer run Windows 7 or MacOS Sierra, Ram 4GB, CPU 3.4GHZ minimum 
+# Google Chrome Version 27 or above installed
+# Internet line with the speed at least 5 Mb/s
+
+*Reproduction Steps:*
+
+# Go to web address [+https://demo.guru99.com/V4/index.php+|https://demo.guru99.com/V4/index.php]
+# Enter credentials User ID: “*mngr547968”;* Password*: “UmuqUhy”* and press “log in” button
+# Click on “New Customer” button from the left menu
+# Click on the “Date of Birth” field and insert the date (dd/mm/yyyy): 07.05.9999
+# Fill in the rest of the fields with valid data (see the data set used bellow) and click submit
+
+*Expected result:*
+
+Date of birth field to be limited.
+A future date of birth cannot be entered.
+An error message to be displayed
+The submit button cannot be pressed
+The wrong date of birth cannot be validated and a New Customer cannot be saved in the database with a future Date of Birth.
+
+*Actual Result:*
+
+A wrong date can be entered: it is accepted by the input field, validated and a New Customer is saved in the database with a future  date of birth: 07.05.9999
+
+ 
+
+*Note: The “Date of Birth” is not documented in SRS v1.3*
+
+ 
+
+*Data set:*
+
+Customer Name: john
+
+Gender: male
+
+Birthdate: 07.05.9999
+
+Address: 14 street
+
+City: city
+
+State: state
+
+Pin: 123456
+
+Mobile Number: 004000550055005
+
+Email: smith@guru99.com
+
+Password: #Year9999#",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,,,,DNT1-41,21/Jan/24 2:23 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;Screenshot 2024-01-19 at 23.10.49.png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/10686,,,,,,,,,,,,,,DNT1-37,"Test the ""Guru99 Bank Web Application""",,,,,,,,,,,,0|i00lsz:,,,,,,,,,,,,,,,,,,,,,,,,,,13951,"Test the ""Guru99 Bank Web Application""",In Progress,26/Feb/24 4:46 PM
+"Invalid ""Date of Birth"" of ""New Customer"" Module. Wrong error message received",DNT1-58,14259,Bug,In Progress,DNT1,Dragos Nechifor TMtA 19,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,19/Jan/24 11:05 PM,27/Feb/24 11:41 AM,27/Feb/24 5:15 PM,,Release 3.0,,0,"*Preconditions:*
+
+# Computer run Windows 7 or MacOS Sierra, Ram 4GB, CPU 3.4GHZ minimum 
+# Google Chrome Version 27 or above installed
+# Internet line with the speed at least 5 Mb/s
+
+*Reproduction Steps:*
+
+# Go to web address [+https://demo.guru99.com/V4/index.php+|https://demo.guru99.com/V4/index.php]
+# Enter credentials User ID: “*mngr547968”;* Password*: “UmuqUhy”* and press “log in” button
+# Click on “New Customer” button from the left menu
+# Click on the field and insert the date (dd/mm/yyyy): 31.02.2015
+# Fill in the rest of the fields with valid data (see the data set used bellow) and click submit
+
+*Expected result:*
+
+An invalid calendar date cannot be entered or after is entered cannot pass to another field.
+A proper error message to be displayed after you typed an invalid date.
+
+Cannot press Submit or an error message to be displayed after submit is pressed.
+The wrong date of birth cannot be validated and a new customer cannot be saved in the database.
+
+*Actual Result:*
+
+A invalid calendar date: 31.02.2010 is accepted in the input field.
+
+Wrong error mesage displayed: “Date Field must not be blank”.
+
+You can go to input other data in any field. 
+
+The submit button can be pressed. 
+
+After submiting the input data, a new customer is not saved in the database, the inserted date is not validated, the error message: “ Please enter a valid date value. The field is incomplete or has an invalid date” is displayed. 
+
+ 
+
+*Note: The “Date of Birth” is not documented in SRS v1.3*
+
+ 
+
+*Data set:*
+
+Customer Name: smith
+
+Gender: male
+
+Birthdate: 31.02.2010
+
+Address: 13st
+
+City: city
+
+State: state
+
+Pin: 987654
+
+Mobile Number: 00405566887788
+
+Email: smith2010@mail.com
+
+Password: 31022010",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,,,,DNT1-41,21/Jan/24 2:57 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;after submit.png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/10688,21/Jan/24 2:57 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;before submit.png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/10687,,,,,,,,,,,,,DNT1-37,"Test the ""Guru99 Bank Web Application""",,,,,,,,,,,,0|i00lt7:,,,,,,,,,,,,,,,,,,,,,,,,,,13951,"Test the ""Guru99 Bank Web Application""",In Progress,26/Feb/24 4:46 PM
+"""PIN"" field of ""New Customer"" wrong error message displayed ",DNT1-61,14366,Bug,In Progress,DNT1,Dragos Nechifor TMtA 19,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,High,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,22/Jan/24 3:23 PM,27/Feb/24 11:41 AM,27/Feb/24 5:15 PM,,Release 3.0,,0,"*Preconditions:*
+
+# Computer run Windows 7 or MacOS Sierra, Ram 4GB, CPU 3.4GHZ minimum 
+# Google Chrome Version 27 or above installed
+# Internet line with the speed at least 5 Mb/s
+
+*Reproduction Steps:*
+
+# Go to web address [+https://demo.guru99.com/V4/index.php+|https://demo.guru99.com/V4/index.php]
+# Enter credentials User ID: “*mngr547968”;* Password*: “UmuqUhy”* and press “log in” button
+# Click on “PIN” button from the left menu
+# Insert “+1” or “-1”
+
+*Expected result:*
+
+“Special character is not allowed” message is displayed.
+
+*Actual Result:*
+
+“Pin Code must have 6 Digits” message is displayed.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,,DNT1-38,,DNT1-60,22/Jan/24 3:39 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;Screenshot 2024-01-22 at 15.38.59.png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/10695,,,,,,,,,,,,,,DNT1-37,"Test the ""Guru99 Bank Web Application""",,,,,,,,,,,,0|i00ltf:,,,,,,,,,,,,,,,,,,,,,,,,,,13951,"Test the ""Guru99 Bank Web Application""",In Progress,26/Feb/24 4:46 PM
+"""PIN"" field of ""New Customer"" module accepting special characters and invalid PIN",DNT1-62,14367,Bug,In Progress,DNT1,Dragos Nechifor TMtA 19,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,High,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,22/Jan/24 3:26 PM,27/Feb/24 11:40 AM,27/Feb/24 5:15 PM,,Release 3.0,,0,"*Preconditions:*
+
+# Computer run Windows 7 or MacOS Sierra, Ram 4GB, CPU 3.4GHZ minimum 
+# Google Chrome Version 27 or above installed
+# Internet line with the speed at least 5 Mb/s
+
+*Reproduction Steps:*
+
+# Go to web address [+https://demo.guru99.com/V4/index.php+|https://demo.guru99.com/V4/index.php]
+# Enter credentials User ID: “*mngr547968”;* Password*: “UmuqUhy”* and press “log in” button
+# Click on “PIN” button from the left menu
+# Insert “+12345” or “-12345”
+
+*Expected result:*
+
+PIN can not be accepted.
+
+Displaying the message “Special character is not allowed”.
+
+*Actual Result:*
+
+The PIN is accepted. No error message received.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,,DNT1-38,,DNT1-60,22/Jan/24 4:01 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;Screenshot 2024-01-22 at 14.50.14.png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/10697,22/Jan/24 4:01 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;Screenshot 2024-01-22 at 14.50.25.png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/10696,,,,,,,,,,,,,DNT1-37,"Test the ""Guru99 Bank Web Application""",,,,,,,,,,,,0|i00ltj:,,,,,,,,,,,,,,,,,,,,,,,,,,13951,"Test the ""Guru99 Bank Web Application""",In Progress,26/Feb/24 4:46 PM
+"New Customers can be created and saved with invalid passwords -  ""New customer"" module",DNT1-63,14369,Bug,In Progress,DNT1,Dragos Nechifor TMtA 19,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Highest,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,22/Jan/24 3:49 PM,27/Feb/24 11:39 AM,27/Feb/24 5:15 PM,,Release 3.0,,0,"*Preconditions:*
+
+# Computer run Windows 7 or MacOS Sierra, Ram 4GB, CPU 3.4GHZ minimum 
+# Google Chrome Version 27 or above installed
+# Internet line with the speed at least 5 Mb/s
+
+*Reproduction Steps:*
+
+# Go to web address [+https://demo.guru99.com/V4/index.php+|https://demo.guru99.com/V4/index.php]
+# Enter credentials User ID: “*mngr547968”;* Password*: “UmuqUhy”* and press “log in” button
+# Click on “PIN” button from the left menu
+# Insert “+12345” or “-12345”
+# Click on Submit Button
+
+*Expected result:*
+
+PIN can not be accepted.
+
+Can not save a new customer with an invalid PIN.
+
+A proper error message displayed.
+
+*Actual Result:*
+
+The PIN is accepted. 
+
+The submit button can be pressed.
+
+No error received. 
+
+A new customer is created and saved in the database.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,,DNT1-38,,DNT1-60,,,,,,,,,,,,,,,DNT1-37,"Test the ""Guru99 Bank Web Application""",,,,,,,,,,,,0|i00lp1:,,,,,,,,,,,,,,,,,,,,,,,,,,13951,"Test the ""Guru99 Bank Web Application""",In Progress,26/Feb/24 4:46 PM
+"""New Customer"" module does not open correctly",DNT1-66,14444,Bug,In Progress,DNT1,Dragos Nechifor TMtA 19,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,24/Jan/24 9:41 AM,27/Feb/24 11:35 AM,27/Feb/24 5:15 PM,,Release 3.0,,0,"*Preconditions:*
+
+# Computer run Windows 7 or MacOS Sierra, Ram 4GB, CPU 3.4GHZ minimum 
+# Google Chrome Version 27 or above installed
+# Internet line with the speed at least 5 Mb/s
+
+*Reproduction Steps:*
+
+# Go to web address [+https://demo.guru99.com/V4/index.php+|https://demo.guru99.com/V4/index.php]
+# Enter credentials User ID: “*mngr547968”;* Password*: “UmuqUhy”* and press “log in” button
+# Click on “New Customer” button from the left menu
+# Inspect the Add New Customer page
+
+*Expected result:*
+
+The texts to be correct and to be readable.
+The alignment to be respected.
+Fields must be blank and editable.
+Mandatory fields must be properly marked
+
+*Actual Result:*
+
+The text are correct and readable.
+
+The alignment is correct.
+
+Not all of the fields are blank. The “E-mail” and “Password” fields are pre-filled with the credentials used to log in the Gurru99 Banking App.
+
+The mandatory fields are not marked properly.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,,,,DNT1-65,,,,,,,,,,,,,,,DNT1-37,"Test the ""Guru99 Bank Web Application""",,,,,,,,,,,,0|i00ltl:,,,,,,,,,,,,,,,,,,,,,,,,,,13951,"Test the ""Guru99 Bank Web Application""",In Progress,26/Feb/24 4:47 PM

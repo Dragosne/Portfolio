@@ -1,0 +1,36 @@
+// Verify the response status code
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+// Verify if the response is in JSON format
+pm.test("Response is JSON", function () {
+    pm.response.to.be.json;
+});
+
+// Verify the response structure
+pm.test("Response has all required fields", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData).to.have.property("id");
+    pm.expect(jsonData).to.have.property("name");
+    pm.expect(jsonData).to.have.property("idBoard");
+    pm.expect(jsonData).to.have.property("closed");
+});
+
+// Verify the values in the response
+pm.test("Response values are correct", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.name).to.eql(pm.environment.get("list_name")); // Verify that the name matches the expected name
+    pm.expect(jsonData.idBoard).to.eql(pm.environment.get("postmanBoardID")); // Verify that the idBoard matches the board ID
+});
+
+// Verify if the list ID is present in the response
+pm.test("List ID is present in the response", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.id).to.be.a("string");
+});
+
+// Verify the response time
+pm.test("Response time is less than 500ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(500);
+});

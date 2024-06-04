@@ -1,0 +1,25 @@
+// Set the new list name for the update
+var newListName = "PROGRESS";
+
+// Test to check if the status code is 200
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+    console.log("Status code:", pm.response.status);
+});
+
+// Verify if the response is in JSON format
+pm.test("Response is JSON", function () {
+    pm.response.to.be.json;
+});
+
+// Test to check if the response contains the updated list name
+pm.test("List name is updated", function () {
+    var responseBody = pm.response.json();
+    console.log("Response body:", responseBody);
+    pm.expect(responseBody.name).to.eql(newListName);
+});
+
+// Verify respone time
+pm.test("Response time is less than 500ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(500);
+});

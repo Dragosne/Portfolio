@@ -1,0 +1,73 @@
+// Save the board name in environment variables
+var postmanBoardName = "Postman Trello Board";
+pm.environment.set("board_name", postmanBoardName);
+
+// Check the status code
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+// Verify if the response is in JSON format
+pm.test("Response is JSON", function () {
+    pm.response.to.be.json;
+});
+
+// Verify the response structure
+pm.test("Response has all required fields", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData).to.have.property("id");
+    pm.expect(jsonData).to.have.property("name");
+    pm.expect(jsonData).to.have.property("idOrganization");
+    pm.expect(jsonData).to.have.property("prefs");
+});
+
+// Verify the response
+pm.test("Response values are correct", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.name).to.eql(pm.environment.get("board_name"));
+    pm.expect(jsonData.closed).to.eql(false);
+});
+
+// Verify the data types
+pm.test("Response fields have correct data types", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.id).to.be.a("string");
+    pm.expect(jsonData.name).to.be.a("string");
+    pm.expect(jsonData.idOrganization).to.be.a("string");
+    pm.expect(jsonData.prefs).to.be.an("object");
+});
+
+// Verify default values
+pm.test("Default values are correct", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.prefs.permissionLevel).to.eql("private");
+});
+
+// Verify respone time
+pm.test("Response time is less than 500ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(500);
+});
+
+// Verify the ID
+pm.test("Response contains an ID", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData).to.have.property("id");
+    pm.expect(jsonData.id).to.be.a("string");
+});
+
+// Verify if the entered boardName is correct
+pm.test("Response name includes the input name", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.name).to.include(pm.environment.get("board_name"));
+});
+
+// Verify if the respons contains idOrganization
+pm.test("Response contains idOrganization", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData).to.have.property("idOrganization");
+    pm.expect(jsonData.idOrganization).to.be.a("string");
+});
+
+// Stores the board ID in an environment or global variable
+var postmanBoardID = pm.response.json().id;
+pm.environment.set("postmanBoardID", postmanBoardID);
