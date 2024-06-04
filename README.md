@@ -7,3 +7,8 @@ I am committed not only to ensuring the quality and functionality of software pr
 ## CV
 
 You can see my resume [here](https://github.com/Dragosne/Portfolio/blob/main/TM-Projects/TEST%20PLAN%20PROJECT/ProjectImages/CV_Dragos_Nechifor_QA_Tester.pdf)
+
+Manual Testing:
+
+I can assist in developing test plans and creating the necessary tests and test suites, prioritizing functionalities and risks for efficiency. Also, I'm offering my help in monitoring and controlling testing activities, ensuring that the testing process progresses as planned, and taking proactive measures to manage different situations that may arise. I'm also proficient in tracking and addressing defects, including conducting retests and regression tests, to uphold the integrity and reliability of the application.
+
