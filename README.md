@@ -30,11 +30,11 @@ Additionally, I've utilized Newman to execute Postman collections automatically.
 Examples of applications used for study include learning platforms like GroceryStore or BookStore, as well as live applications such as Spotify or Trello. <br>
 In this regard, the API-Postman project in my portfolio showcases this expertise: [API Postman Project](https://github.com/Dragosne/Portfolio/tree/main/TM-Projects/API%20Postman)
 
-### MySql
+### MySQL
 
 In the realm of MySQL, I've grasped fundamental concepts such as creating, populating, and deleting databases and tables. <br>
 I've also honed my skills in data manipulation using various queries and subqueries, leveraging functions, filters, and keys. <be>
-This knowledge is showcased in the MySQL project within my portfolio: [MySql Project](https://github.com/Dragosne/Portfolio/tree/main/TM-Projects/MySQL%20Project)
+This knowledge is showcased in the MySQL project within my portfolio: [MySQL Project](https://github.com/Dragosne/Portfolio/tree/main/TM-Projects/MySQL%20Project)
 
 ### Automated Testing and Python Programming:
 
