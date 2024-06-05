@@ -4,10 +4,11 @@ I am a meticulous and detail-oriented software tester, passionate about ensuring
 
 I am committed not only to ensuring the quality and functionality of software products but also to contributing to the success of the business or improving the experience/personal life, as appropriate, by guaranteeing an unparalleled user experience. I understand that a quality application is vital for achieving organizational goals or personal needs and I am committed to contributing to the process of achieving them through software testing.
 
-[**My CV is here**](https://github.com/Dragosne/Portfolio/blob/main/TM-Projects/TEST%20PLAN%20PROJECT/ProjectImages/CV_Dragos_Nechifor_QA_Tester.pdf)
-[**My LinkedIn**](https://www.linkedin.com/in/dragos-nechifor-96ba722a8/)
-[**My Portfolio**](https://github.com/Dragosne/Portfolio/)
-[**Email me**](mailto:dragos.nechifor@gmail.com)
+[**My CV is here**](https://github.com/Dragosne/Portfolio/blob/main/TM-Projects/TEST%20PLAN%20PROJECT/ProjectImages/CV_Dragos_Nechifor_QA_Tester.pdf)<br>
+[**My LinkedIn**](https://www.linkedin.com/in/dragos-nechifor-96ba722a8/)<br>
+[**My Portfolio**](https://github.com/Dragosne/Portfolio/)<br>
+<img src="https://img.icons8.com/ios-filled/50/000000/email-sign.png" width="15" height="15"/> [Email me](mailto:youremail@example.com)
+[**Email me**](mailto:dragos.nechifor@gmail.com)<br>
 
 
 
