@@ -7,7 +7,7 @@ I am committed not only to ensuring the quality and functionality of software pr
 [**My CV is here**](https://github.com/Dragosne/Portfolio/blob/main/TM-Projects/TEST%20PLAN%20PROJECT/ProjectImages/CV_Dragos_Nechifor_QA_Tester.pdf)
 [**My LinkedIn**](https://www.linkedin.com/in/dragos-nechifor-96ba722a8/)
 [**My Portfolio**](https://github.com/Dragosne/Portfolio/)
-[**Email me**](mailto: dragos.nechifor@gmail.com)
+[**Email me**](mailto:dragos.nechifor@gmail.com)
 
 
 
