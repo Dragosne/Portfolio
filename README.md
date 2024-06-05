@@ -11,8 +11,17 @@ You can see my resume [here](https://github.com/Dragosne/Portfolio/blob/main/TM-
 
 ## Skills:
 
-Manual Testing:
+### Manual Testing:
 
-I can help in developing test plans and creating the necessary tests and test suites, prioritizing functionalities and risks for efficiency. Also, I'm offering my help in monitoring and controlling testing activities, ensuring that the testing process progresses as planned, and taking proactive measures to manage different situations that may arise. I'm also proficient in tracking and addressing defects, including conducting retests and regression tests, to uphold the integrity and reliability of the application. 
-Given my previous experience, I have practical experience in testing virtual stores and applications created for educational purposes.
+I have gained experience and knowledge in manual testing of web applications, being able to develop and execute test plans, identify and report bugs, and ensure a smooth and error-free experience for users. This expertise helps me approach various testing scenarios and ensure that applications are functional and intuitive for users.
+Jira & Zephyr:
 
+
+### API Testing: 
+
+Through hands-on practice with tools like Postman, I've learned to organize requests into collections, leverage global or environmental variables, and write JavaScript scripts in both pre-request and post-request stages to automate tests and validate API responses. <br>
+Additionally, I've utilized Newman to execute Postman collections automatically. <be>
+Examples of applications used for study include learning platforms like GroceryStore or BookStore, as well as live applications such as Spotify or Trello. <br>
+In this regard, the API-Postman project in my portfolio showcases this expertise.
+
+I learn how to use Postman 
