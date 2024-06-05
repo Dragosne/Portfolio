@@ -9,7 +9,7 @@ I am committed not only to ensuring the quality and functionality of software pr
 [**My Portfolio**](https://github.com/Dragosne/Portfolio/)<br>
 <img src="https://img.icons8.com/ios-glyphs/30/000000/email.png" width="15" height="15"/> [**Email me**](mailto:dragos.nechifor@gmail.com)<br>
 
-
+<img src="https://simpleicons.org/icons/gmail.svg" width="15" height="15"/>
 
 ## Skills:
 
