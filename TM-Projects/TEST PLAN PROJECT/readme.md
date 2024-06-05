@@ -146,8 +146,6 @@ These criteria ensure that testing is conducted effectively, allowing for the pr
 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
-*********************
-
 ### TEST MONITORING AND CONTROL
 
 The monitoring and control phase was initiated to ensure effective oversight of the testing process and project progress. 
