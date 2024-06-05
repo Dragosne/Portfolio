@@ -13,15 +13,82 @@ You can see my resume [here](https://github.com/Dragosne/Portfolio/blob/main/TM-
 
 ### Manual Testing:
 
-I have gained experience and knowledge in manual testing of web applications, being able to develop and execute test plans, identify and report bugs, and ensure a smooth and error-free experience for users. This expertise helps me approach various testing scenarios and ensure that applications are functional and intuitive for users.
-Jira & Zephyr:
+I have gained experience and knowledge in manual testing of web applications, being able to develop and execute test plans, identify and report bugs, and ensure a smooth and error-free experience for users. <be>
+This expertise helps me approach various testing scenarios and ensure that applications are functional and intuitive for users.
 
+### Jira & Zephyr:
+
+I've delved into project management and software testing using Jira and Zephyr, both through coursework and self-study.<br> 
+I've learned how to plan, assign, and track projects by creating epics, stories, and tasks. Additionally, I've gained proficiency in generating various reports to monitor progress and performance. <br>
+Moreover, I've created testing cycles, tests, and bug reports, which I've organized and managed using the Zephyr plugin. <br>
+This expertise is reflected in the test plan project within my portfolio: [Test Plan Project](https://github.com/Dragosne/Portfolio/tree/main/TM-Projects/TEST%20PLAN%20PROJECT)
 
 ### API Testing: 
 
 Through hands-on practice with tools like Postman, I've learned to organize requests into collections, leverage global or environmental variables, and write JavaScript scripts in both pre-request and post-request stages to automate tests and validate API responses. <br>
 Additionally, I've utilized Newman to execute Postman collections automatically. <be>
 Examples of applications used for study include learning platforms like GroceryStore or BookStore, as well as live applications such as Spotify or Trello. <br>
-In this regard, the API-Postman project in my portfolio showcases this expertise.
+In this regard, the API-Postman project in my portfolio showcases this expertise: [API Postman Project](https://github.com/Dragosne/Portfolio/tree/main/TM-Projects/API%20Postman)
 
-I learn how to use Postman 
+### MySql
+
+In the realm of MySQL, I've grasped fundamental concepts such as creating, populating, and deleting databases and tables. <br>
+I've also honed my skills in data manipulation using various queries and subqueries, leveraging functions, filters, and keys. <be>
+This knowledge is showcased in the MySQL project within my portfolio: [MySqql Project](https://github.com/Dragosne/Portfolio/tree/main/TM-Projects/MySQL%20Project)
+
+### Automated Testing and Python Programming:
+
+From the early courses, I've been captivated by the world of automated testing. Each project has been an opportunity for me to grow and learn new things in the field of testing and programming. <br>
+I'm passionately dedicated to creating automated tests and motivated to continuously advance in this direction.<br>
+I've gained solid knowledge in using Python for testing both front-end and back-end applications. I've created frameworks using both unittest and Behaviour Driven Development (BDD).<br>
+I've performed tests on various live and learning applications, exploring and testing the behavior of different web interface elements using various selectors.<br>
+Additionally, I've explored automated testing of APIs using the requests library and unittest to create a testing framework to verify and validate API responses.<br>
+
+My projects reflect this passion and determination:
+• [Unittest Project](https://github.com/Dragosne/Portfolio/tree/main/TA-Projects/TA-Unittest-project)
+• [BDD Project](https://github.com/Dragosne/Portfolio/tree/main/TA-Projects/TA-BDD-project)
+• [API Project](https://github.com/Dragosne/Portfolio/tree/main/TA-Projects/TA-API-Project)
+
+I believe that the most important thing is how you approach a problem or a task in general in order to successfully complete it. If you can first look at the big picture and understand what you're dealing with, meaning where you're starting from and where you need to go, then half of the work is already done. The next step is to determine the path to follow in this process, to break down the process into smaller steps, to evaluate the problem, to establish the approach, to identify strengths and weaknesses, to find the optimal route to follow, and to assess the resources needed, the tools necessary for the desired outcome. In essence, if you can do all this, you can say that you've completed the other half as well. Overall, this way of working can help you both in your daily life on a personal level and in business, regardless of the profession you choose to pursue.
+
+### Courses Completed:
+
+- IT FACTORY SCHOOL - QA SOFTWARE TESTER
+  Skills Acquired:
+  - Foundations of Software Testing (following ISTQB standard)
+  - Creating a test plan according to standard models and understanding the necessity of such documentation.
+  - Performing Static Testing including code reviews and document reviews
+  - Using Jira and Zephyr plug-in for project management and software testing:
+    - Understanding the structure and utility of Jira and Zephyr
+    - Using Jira and Zephyr components for project planning and tracking
+    - Managing epics, stories, and tasks in Jira
+    - Creating and managing tests and bugs in Zephyr
+    - Utilizing test cycles and releases for organizing and planning tests
+  - HTML elements: identification, understanding the functioning of the Network and Console sections
+  - API Testing + Postman + Newman, Javascript
+  - MySQL
+
+- IT FACTORY SCHOOL - PYTHON PROGRAMMING + AUTOMATED TESTING
+  Skills Acquired:
+  - Python OOP
+  - HTML Selectors: standards, CSS, xpath
+  - Unittest Framework
+  - BDD framework
+  - API Automated Testing - framework
+  - Git & Github
+    
+- IT FACTORY - First Steps In Programming: JAVA vs Python
+  Skills Acquired: variables, data types, operators, flow control, functions and OOP principles and practices
+  Instructor: Andy Sanpetrean
+  
+- UDEMY - The Complete QA Course - Learn QA from Scratch
+  Instructors: Victor Gorinov
+  
+- UDEMY - ISTQB Foundation Level Preparation Course
+  Instructors: Mark Shrike, Victoria N
+  
+- UDEMY - JIRA Test Management using Zephyr for Testers
+  Instructor: Arif Aman
+  
+- UDEMY - POSTMAN: The Complete Guide - REST API Testing
+  Instructor: Valentin Despa
