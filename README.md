@@ -51,44 +51,44 @@ My projects reflect this passion and determination:
 
 I believe that the most important thing is how you approach a problem or a task in general in order to successfully complete it. If you can first look at the big picture and understand what you're dealing with, meaning where you're starting from and where you need to go, then half of the work is already done. The next step is to determine the path to follow in this process, to break down the process into smaller steps, to evaluate the problem, to establish the approach, to identify strengths and weaknesses, to find the optimal route to follow, and to assess the resources needed, the tools necessary for the desired outcome. In essence, if you can do all this, you can say that you've completed the other half as well. Overall, this way of working can help you both in your daily life on a personal level and in business, regardless of the profession you choose to pursue.
 
-### Courses Completed:
+## Courses:
 
-- IT FACTORY SCHOOL - QA SOFTWARE TESTER
-  Skills Acquired:
-  - Foundations of Software Testing (following ISTQB standard)
-  - Creating a test plan according to standard models and understanding the necessity of such documentation.
-  - Performing Static Testing including code reviews and document reviews
-  - Using Jira and Zephyr plug-in for project management and software testing:
-    - Understanding the structure and utility of Jira and Zephyr
-    - Using Jira and Zephyr components for project planning and tracking
-    - Managing epics, stories, and tasks in Jira
-    - Creating and managing tests and bugs in Zephyr
-    - Utilizing test cycles and releases for organizing and planning tests
-  - HTML elements: identification, understanding the functioning of the Network and Console sections
-  - API Testing + Postman + Newman, Javascript
-  - MySQL
+#### IT FACTORY SCHOOL - QA SOFTWARE TESTER
+Skills Acquired:
+- Foundations of Software Testing (following ISTQB standard)
+- Creating a test plan according to standard models and understanding the necessity of such documentation.
+- Performing Static Testing including code reviews and document reviews
+- Using Jira and Zephyr platforms for project management and software testing:
+  - Understanding the structure and utility of Jira and Zephyr
+  - Using Jira and Zephyr components for project planning and tracking
+  - Managing epics, stories, and tasks in Jira
+  - Creating and managing tests and bugs in Zephyr
+  - Utilizing test cycles and releases for organizing and planning tests
+- HTML elements: identification, understanding of the functioning of the Network and Console sections
+- API Testing + Postman + Newman, Javascript
+- MySQL
 
-- IT FACTORY SCHOOL - PYTHON PROGRAMMING + AUTOMATED TESTING
-  Skills Acquired:
-  - Python OOP
-  - HTML Selectors: standards, CSS, xpath
-  - Unittest Framework
-  - BDD framework
-  - API Automated Testing - framework
-  - Git & Github
-    
-- IT FACTORY - First Steps In Programming: JAVA vs Python
-  Skills Acquired: variables, data types, operators, flow control, functions and OOP principles and practices
-  Instructor: Andy Sanpetrean
+#### IT FACTORY SCHOOL - PYTHON PROGRAMMING + AUTOMATED TESTING
+Skills Acquired:
+- Python OOP
+- HTML Selectors: standards, CSS, XPath
+- Unittest Framework
+- BDD framework
+- API Automated Testing - framework
+- Git & GitHub
   
-- UDEMY - The Complete QA Course - Learn QA from Scratch
-  Instructors: Victor Gorinov
+#### IT FACTORY - First Steps In Programming: JAVA vs Python
+Skills Acquired: variables, data types, operators, flow control, functions and OOP principles and practices
+Instructor: Andy Sanpetrean
   
-- UDEMY - ISTQB Foundation Level Preparation Course
-  Instructors: Mark Shrike, Victoria N
+#### UDEMY - The Complete QA Course - Learn QA from Scratch
+Instructor: Victor Gorinov
   
-- UDEMY - JIRA Test Management using Zephyr for Testers
-  Instructor: Arif Aman
+#### UDEMY - ISTQB Foundation Level Preparation Course
+Instructors: Mark Shrike, Victoria N
   
-- UDEMY - POSTMAN: The Complete Guide - REST API Testing
-  Instructor: Valentin Despa
+#### UDEMY - JIRA Test Management using Zephyr for Testers
+Instructor: Arif Aman
+  
+#### UDEMY - POSTMAN: The Complete Guide - REST API Testing
+Instructor: Valentin Despa
