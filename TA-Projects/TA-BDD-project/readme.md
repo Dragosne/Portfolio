@@ -2,7 +2,7 @@
 
 ## Description
 
-The "BDD-tmta19" project is an automation testing suite written in Python using Selenium WebDriver and `behave`. This BDD (Behavior-Driven Development) framework is used for automated testing of various modules/features or functionalities of the web application.
+The BDD project is an automation testing suite written in Python using Selenium WebDriver and `behave`. This BDD (Behavior-Driven Development) framework is used for automated testing of various modules/features or functionalities of the web application.
 
 ### Application Under Test
 
