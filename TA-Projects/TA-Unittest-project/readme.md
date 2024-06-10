@@ -1,8 +1,8 @@
-# Unittest_tmta19_Project
+# Unittest Project
 
 ## Description
 
-This project contains automated test suites for the BebeTei website. The tests are written using Python's `unittest` framework and are organized to cover different functionalities of the site, including new user and registered user authentication, and shopping cart functionality testing.
+This project contains automated test suites for the BebeTei website. The tests are written using Python's unittest framework and are organized to cover different functionalities of the site, including new user and registered user authentication, and shopping cart functionality testing.
 
 ## Project Structure
 
