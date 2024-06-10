@@ -1,6 +1,6 @@
 # API Project
 
-This project is designed to test the functionalities of a grocery API. The structure includes API routes, input data, and methods, as well as automated tests and reports.
+This project is designed to test the functionalities of Simple Grocery Store API. The structure includes API routes, input data, methods, and automated tests and reports.
 
 ### Application Under Test
 
