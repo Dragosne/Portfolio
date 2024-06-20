@@ -68,6 +68,8 @@ Skills Acquired:
 - API Testing + Postman + Newman, Javascript
 - MySQL
 
+[**Certificate**]()<br>
+
 #### IT FACTORY SCHOOL - PYTHON PROGRAMMING + AUTOMATED TESTING
 Skills Acquired:
 - Python OOP
