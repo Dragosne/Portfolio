@@ -53,7 +53,7 @@ I believe that the most important thing is how you approach a problem or a task 
 
 ## Courses:
 
-#### IT FACTORY SCHOOL - QA SOFTWARE TESTER
+#### IT FACTORY SCHOOL - QA SOFTWARE TESTER - [**Certificate**](https://github.com/Dragosne/Portfolio/blob/main/Certificates/ITFactory_QASoftwareTester_Nechifor%20Dragos.pdf)<br>
 Skills Acquired:
 - Foundations of Software Testing (following ISTQB standard)
 - Creating a test plan according to standard models and understanding the necessity of such documentation.
@@ -68,9 +68,7 @@ Skills Acquired:
 - API Testing + Postman + Newman, Javascript
 - MySQL
 
-[**Certificate**]()<br>
-
-#### IT FACTORY SCHOOL - PYTHON PROGRAMMING + AUTOMATED TESTING
+#### IT FACTORY SCHOOL - PYTHON PROGRAMMING + AUTOMATED TESTING - [**Certificate**](https://github.com/Dragosne/Portfolio/blob/main/Certificates/ITFactory_QAAutomationTester_Nechifor%20Dragos.pdf)<br>
 Skills Acquired:
 - Python OOP
 - HTML Selectors: standards, CSS, XPath
@@ -83,14 +81,14 @@ Skills Acquired:
 Skills Acquired: variables, data types, operators, flow control, functions and OOP principles and practices
 Instructor: Andy Sanpetrean
   
-#### UDEMY - The Complete QA Course - Learn QA from Scratch
+#### UDEMY - The Complete QA Course - Learn QA from Scratch - [**Certificate**](https://github.com/Dragosne/Portfolio/blob/main/Certificates/The%20Complete%20QA%20Course%20-%20Gorinov.pdf)<br>
 Instructor: Victor Gorinov
   
-#### UDEMY - ISTQB Foundation Level Preparation Course
+#### UDEMY - ISTQB Foundation Level Preparation Course - [**Certificate**](https://github.com/Dragosne/Portfolio/blob/main/Certificates/The%20Complete%20QA%20Course%20-%20Gorinov.pdf)<br>
 Instructors: Mark Shrike, Victoria N
   
-#### UDEMY - JIRA Test Management using Zephyr for Testers
+#### UDEMY - JIRA Test Management using Zephyr for Testers - [**Certificate**](https://github.com/Dragosne/Portfolio/blob/main/Certificates/Udemy%20Jira%20and%20Zephyr%20-%20Arif%20Aman.pdf)<br>
 Instructor: Arif Aman
   
-#### UDEMY - POSTMAN: The Complete Guide - REST API Testing
+#### UDEMY - POSTMAN: The Complete Guide - REST API Testing - [**Certificate**](https://github.com/Dragosne/Portfolio/blob/main/Certificates/Postman%20Udemy%20Certification%20VDespa.pdf)<br>
 Instructor: Valentin Despa
