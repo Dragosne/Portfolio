@@ -2,9 +2,10 @@
 
 I am a meticulous and detail-oriented software tester, passionate about ensuring the quality and functionality of software products. With experience in manual testing methodologies and a fervent enthusiasm for automation testing, I am dedicated to carefully evaluating software applications to detect and remedy defects. Everybody values applications that run smoothly, without defects or delays, which provide a complete and enjoyable experience for both regular users and professionals from various fields. My goal is for each application to become a usual and indispensable tool for the user, whether it is an ordinary citizen or an employee of a company, and to remain an essential choice in their day-to-day activities.
 
-I am committed not only to ensuring the quality and functionality of software products but also to contributing to the success of the business or improving the experience/personal life, as appropriate, by guaranteeing an unparalleled user experience. I understand that a quality application is vital for achieving organizational goals or personal needs and I am committed to contributing to the process of achieving them through software testing.
+I am committed not only to ensuring the quality and functionality of software products but also to contributing to the business's success or improving the experience/personal life, as appropriate, by guaranteeing an unparalleled user experience. I understand that a quality application is vital for achieving organizational goals or personal needs and I am committed to contributing to the process of achieving them through software testing.
 
 [**View my CV**](https://github.com/Dragosne/Portfolio/blob/main/TM-Projects/TEST%20PLAN%20PROJECT/ProjectImages/CV_Dragos_Nechifor_QA_Tester.pdf)<br>
+[**View letter of recommandation from IT Factory**](https://github.com/Dragosne/Portfolio/blob/main/Certificates/ITFactory_Scrisoare-de-Recomandare_Nechifor%20Dragos.pdf)<br>
 [**Connect with me on LinkedIn**](https://www.linkedin.com/in/dragos-nechifor-96ba722a8/)<br>
 [**Check out my GitHub Portfolio**](https://github.com/Dragosne/Portfolio/)<br>
 [**Email me**](mailto:dragos.nechifor@gmail.com)<br>
@@ -13,7 +14,7 @@ I am committed not only to ensuring the quality and functionality of software pr
 
 ### Manual Testing:
 
-I have gained experience and knowledge in manual testing of web applications, being able to develop and execute test plans, identify and report bugs, and ensure a smooth and error-free experience for users. <be>
+I have gained experience and knowledge in manual testing of web applications, developing and executing test plans, identifying and reporting bugs, and ensuring a smooth and error-free user experience. <be>
 This expertise helps me approach various testing scenarios and ensure that applications are functional and intuitive for users.
 
 ### Jira & Zephyr:
