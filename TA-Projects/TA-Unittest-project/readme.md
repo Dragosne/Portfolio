@@ -16,6 +16,13 @@ This project contains automated test suites for the BebeTei website. The tests a
 
 To view my test results, download the HTML file: [test report](https://github.com/Dragosne/TA-Unittest-project/blob/main/Test%20Result_2024-05-21_15-43-58.html) locally and open it using Chrome.
 
+## Environment
+- **Python Version**: 3.x
+- **Required Packages**: Listed in requirements.txt
+- **Operating System:** Should work on Windows, macOS, and Linux
+- **Browser**: Tests were performed using Google Chrome
+  - **Version**: 126.0.6478.62 (Official Build) (x86_64)
+
 ## Installation
 
 1. Clone the repository:
