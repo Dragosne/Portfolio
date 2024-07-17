@@ -31,17 +31,6 @@ Once you have cloned or downloaded this project, you must update certain variabl
 These credentials are necessary to authenticate user sessions during the tests. 
 Please create an account on the [BebeTei website](https://comenzi.bebetei.ro/) and update the test scripts with your email and password where needed.
 
-### Steps to update your credentials:
-
-1. **Open the project**: Navigate to **login_registered_user_positive.py** located in the project directory.
-2. **Edit the file**: Search for the following constants and replace them with your actual registered email, name and surname, and valid password:
-   - `EMAIL_POSITIVE_INPUT = "<write here your registered email>"`
-   - `USER_NAME = "<write here your account name and surname>"`
-   - `PASSWORD_POSITIVE_INPUT = "<write here your valid password>"`
-   - `SUCCESS_LOGIN_PAGE_EXPECTED_MESSAGE = 'Bun venit, <write here your account name and surname>!'`
-3. **Save the file**: Ensure you save the changes before running the tests.
-
-Ensure these credentials are stored securely and are not hard-coded in the scripts if they are to be shared publicly or within an insecure environment.
 
 ## Installation
 
@@ -61,6 +50,18 @@ Ensure these credentials are stored securely and are not hard-coded in the scrip
     ```bash
     pip install -r requirements.txt
     ```
+
+## Steps to update your credentials:
+
+1. **Open the project**: Navigate to **login_registered_user_positive.py** located in the project directory.
+2. **Edit the file**: Search for the following constants and replace them with your actual registered email, name and surname, and valid password:
+   - `EMAIL_POSITIVE_INPUT = "<write here your registered email>"`
+   - `USER_NAME = "<write here your account name and surname>"`
+   - `PASSWORD_POSITIVE_INPUT = "<write here your valid password>"`
+   - `SUCCESS_LOGIN_PAGE_EXPECTED_MESSAGE = 'Bun venit, <write here your account name and surname>!'`
+3. **Save the file**: Ensure you save the changes before running the tests.
+
+Ensure these credentials are stored securely and are not hard-coded in the scripts if they are to be shared publicly or within an insecure environment.
 
 ## Running Tests
 
