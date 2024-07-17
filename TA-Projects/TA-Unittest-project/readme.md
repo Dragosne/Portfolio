@@ -23,6 +23,15 @@ To view my test results, download the HTML file: [test report](https://github.co
 - **Browser**: Tests were performed using Google Chrome
   - **Version**: 126.0.6478.62 (Official Build) (x86_64)
 
+## Important Notes Before Running Tests
+
+**Credentials Requirement**: For security reasons, credentials used in the test scripts are not included in this repository. 
+To run the tests successfully, you will need to provide your own valid credentials. 
+Please create an account on the [BebeTei website](https://comenzi.bebetei.ro/) and update the test scripts with your email and password where needed. 
+This is required to perform tests that involve user authentication, such as logging in as a registered user.
+
+Ensure these credentials are stored securely and are not hard-coded in the scripts if they are to be shared publicly or within an insecure environment.
+
 ## Installation
 
 1. Clone the repository:
