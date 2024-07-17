@@ -34,19 +34,19 @@ Please create an account on the [BebeTei website](https://comenzi.bebetei.ro/) a
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository**:
     ```bash
     git clone https://github.com/Dragosne/TA-Unittest-project.git
     cd TA-Unittest-project
     ```
 
-2. Create and activate a virtual environment:
+2. **Create and activate a virtual environment**:
     ```bash
     python -m venv venv
     source venv/bin/activate  # For Windows, use `venv\Scripts\activate`
     ```
 
-3. Install the required dependencies:
+3. **Install the required dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
