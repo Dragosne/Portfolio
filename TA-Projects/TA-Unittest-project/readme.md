@@ -15,7 +15,7 @@ The tests cover various functionalities such as new user and registered user aut
     
 ## Test Results
 
-Download the HTML file to view my test results: [test report](https://github.com/Dragosne/TA-Unittest-project/blob/main/Test%20Result_2024-05-21_15-43-58.html) and open it using Chrome.
+Download the HTML file to view my test results: [test report](https://github.com/Dragosne/Portfolio/blob/main/TA-Projects/TA-Unittest-project/Test%20Result_2024-05-21_15-43-58.html) and open it using Chrome.
 
 ## Environment
 - **Python Version**: 3.x
