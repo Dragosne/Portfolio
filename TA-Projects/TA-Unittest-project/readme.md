@@ -25,10 +25,21 @@ To view my test results, download the HTML file: [test report](https://github.co
 
 ## Important Notes Before Running Tests
 
-**Credentials Requirement**: For security reasons, credentials used in the test scripts are not included in this repository. 
-To run the tests successfully, you will need to provide your own valid credentials. 
-Please create an account on the [BebeTei website](https://comenzi.bebetei.ro/) and update the test scripts with your email and password where needed. 
-This is required to perform tests that involve user authentication, such as logging in as a registered user.
+**Credentials Requirement**: For security reasons, credentials used in the test scripts are not included in this repository.
+
+Once you have cloned or downloaded this project, you must update certain variables with your own credentials to ensure the test suites run correctly. 
+These credentials are necessary to authenticate user sessions during the tests. 
+Please create an account on the [BebeTei website](https://comenzi.bebetei.ro/) and update the test scripts with your email and password where needed.
+
+### Steps to update your credentials:
+
+1. **Open the project**: Navigate to **login_registered_user_positive.py** located in the project directory.
+2. **Edit the file**: Search for the following constants and replace them with your actual registered email, name and surname, and valid password:
+   - `EMAIL_POSITIVE_INPUT = "<write here your registered email>"`
+   - `USER_NAME = "<write here your account name and surname>"`
+   - `PASSWORD_POSITIVE_INPUT = "<write here your valid password>"`
+   - `SUCCESS_LOGIN_PAGE_EXPECTED_MESSAGE = 'Bun venit, <write here your account name and surname>!'`
+3. **Save the file**: Ensure you save the changes before running the tests.
 
 Ensure these credentials are stored securely and are not hard-coded in the scripts if they are to be shared publicly or within an insecure environment.
 
