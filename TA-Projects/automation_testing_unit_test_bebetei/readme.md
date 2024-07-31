@@ -7,7 +7,7 @@ The tests cover various functionalities such as new user and registered user aut
 
 ## Project Structure
 
-- **reports/**: Contains the test results HTML reports file
+- **reports/**: Contains all the generated test results, including the latest report.
 - **tests/**: Contains all automated tests.
   - **tests/login_new_user.py**: Tests the login process for new users.
   - **tests/login_registered_user_positive.py**: Tests the login process for already registered users.
