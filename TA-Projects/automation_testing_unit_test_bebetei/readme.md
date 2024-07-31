@@ -16,8 +16,10 @@ The tests cover various functionalities such as new user and registered user aut
     
 ## Test Results
 
-Download the HTML file to view my test results: [here](https://github.com/Dragosne/Portfolio/raw/main/TA-Projects/automation_testing_unit_test_bebetei/reports/Test%20Result_2024-05-21_15-43-58.html) and open it using Chrome. </br>
-For a quick view click on: [png test report](https://github.com/Dragosne/Portfolio/blob/main/TA-Projects/TA-Unittest-project/reports/report.png)
+Download the HTML file to view my test results: Right-click the following link and select "Save link as..." to download the file locally. Then, open it using Chrome. </br> </br> 
+[Download HTML Test Results](https://github.com/Dragosne/Portfolio/raw/main/TA-Projects/automation_testing_unit_test_bebetei/reports/Test%20Result_2024-05-21_15-43-58.html) </br></br>
+For a quick view, you can click on the following link to view the PNG test report: </br></br>
+[PNG Test Report](https://github.com/Dragosne/Portfolio/blob/main/TA-Projects/TA-Unittest-project/reports/report.png)</br>
 
 ## Environment
 - **Python Version**: 3.x
