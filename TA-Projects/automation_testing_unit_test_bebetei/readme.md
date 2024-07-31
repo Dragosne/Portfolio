@@ -69,7 +69,7 @@ Ensure these credentials are stored securely and are not hard-coded in the scrip
 
 ## Running Tests
 
-To run all tests and generate a report in HTML format, execute the `test_runner.py` script:
+To run all tests and generate a report in HTML format, execute the **`test_runner.py`** script:
 
 ```bash
 python test_runner.py
