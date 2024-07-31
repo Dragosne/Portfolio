@@ -46,7 +46,7 @@ I've performed tests on various live and learning applications, exploring and te
 Additionally, I've explored automated testing of APIs using the requests library and unittest to create a testing framework to verify and validate API responses.<br>
 
 My projects reflect this passion and determination:
-• [Unittest Project](https://github.com/Dragosne/Portfolio/tree/main/TA-Projects/TA-Unittest-project)
+• [Unittest Project](https://github.com/Dragosne/Portfolio/tree/main/TA-Projects/automation_testing_unit_test_bebetei)
 • [BDD Project](https://github.com/Dragosne/Portfolio/tree/main/TA-Projects/TA-BDD-project)
 • [API Project](https://github.com/Dragosne/Portfolio/tree/main/TA-Projects/TA-API-Project)
 
