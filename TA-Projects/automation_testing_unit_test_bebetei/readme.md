@@ -74,3 +74,4 @@ To run all tests and generate a report in HTML format, execute the `test_runner.
 ```bash
 python test_runner.py
 
+The new test report will be located in the **`reports`** folder
